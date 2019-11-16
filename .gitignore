@@ -7,6 +7,7 @@
 *.csproj
 *.unityproj
 *.sln
+*.vs
 
 # VS block
 ## Ignore Visual Studio temporary files, build results, and
