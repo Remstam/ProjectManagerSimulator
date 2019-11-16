@@ -8,14 +8,16 @@ namespace Assets.Scripts.Core
     public class GameLoop : IGameLoop
     {
         private readonly IStorage _storage;
+        private readonly IPrefabStorage _prefabStorage;
         private readonly IDifficultyPicker _difficultyPicker;
         private readonly IGameMainCycle _mainCycle;
         private readonly IEndGamePresenter _endGamePresenter;
 
-        public GameLoop(IStorage storage)
+        public GameLoop(IStorage storage, IPrefabStorage prefabStorage)
         {
             _storage = storage;
-            _difficultyPicker = new DifficultyPicker();
+            _prefabStorage = prefabStorage;
+            _difficultyPicker = new DifficultyPicker(prefabStorage);
             _mainCycle = new GameMainCycle();
             _endGamePresenter = new EndGamePresenter();
 
@@ -35,7 +37,7 @@ namespace Assets.Scripts.Core
         private void OnDifficultyPicked(DifficultyType type)
         {
             _difficultyPicker.Hide();
-            _mainCycle.Init(type, _storage);
+            _mainCycle.Init(type, _storage, _prefabStorage);
         }
 
         private void OnGameEnded(GameResultType resultType)

@@ -8,7 +8,7 @@ namespace Assets.Scripts.Core.GameCycle
     {
         event Action<GameResultType> GameEnded;
 
-        void Init(DifficultyType type, IStorage storage);
+        void Init(DifficultyType type, IStorage storage, IPrefabStorage prefabStorage);
         void Reset();
     }
 }

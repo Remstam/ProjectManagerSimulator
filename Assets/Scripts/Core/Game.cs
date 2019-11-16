@@ -10,7 +10,7 @@ namespace Assets.Scripts.Core
         
         private void Start()
         {
-            _gameLoop = new GameLoop(_storage);
+            _gameLoop = new GameLoop(_storage, _storage);
             _gameLoop.Run();
         }
     }
