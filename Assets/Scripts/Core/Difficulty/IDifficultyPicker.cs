@@ -6,6 +6,7 @@ namespace Assets.Scripts.Core.Difficulty
     {
         event Action<DifficultyType> DifficultyPicked;
 
+        void Show();
         void Hide();
     }
 }

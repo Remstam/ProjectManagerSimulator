@@ -1,5 +1,4 @@
-﻿using Assets.Scripts.Core.Difficulty;
-using Assets.Scripts.Storage;
+﻿using Assets.Scripts.Storage;
 using UnityEngine;
 
 namespace Assets.Scripts.Core
@@ -7,17 +6,12 @@ namespace Assets.Scripts.Core
     public class Game : MonoBehaviour
     {
         [SerializeField] private StorageObj _storage;
-        private IDifficultyPicker _difficultyPicker;
+        private IGameLoop _gameLoop;
         
         private void Start()
         {
-            _difficultyPicker = new DifficultyPicker();
-            _difficultyPicker.DifficultyPicked += OnDifficultyPicked;
-        }
-
-        private void OnDifficultyPicked(DifficultyType type)
-        {
-            _difficultyPicker.Hide();
+            _gameLoop = new GameLoop(_storage);
+            _gameLoop.Run();
         }
     }
 }
