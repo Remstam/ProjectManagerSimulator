@@ -10,7 +10,7 @@ public class Test : MonoBehaviour
         
     }
 
-    // test
+    // test 2
     
     // Update is called once per frame
     void Update()
