@@ -6,7 +6,6 @@
     <e p="C:\Users\vango\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_ProjectManagerSimulator.-1916364629.00" t="ExcludeRecursive" />
     <e p="C:\Users\vango\.Rider2019.1\system\rust_expanded_macros\BOGRTxip\expansions" t="IncludeRecursive" />
     <e p="D:\UnityProjects\ProjectManagerSimulator" t="IncludeRecursive">
-      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Code" t="Include">
@@ -81,25 +80,6 @@
               </e>
             </e>
             <e p="readme.txt" t="Include" />
-          </e>
-        </e>
-        <e p="Plugins" t="Include">
-          <e p="Sirenix" t="Include">
-            <e p="Demos" t="Include">
-              <e p="Editor Windows" t="Include">
-                <e p="Scripts" t="Include">
-                  <e p="Editor" t="Include">
-                    <e p="BasicOdinEditorExampleWindow.cs" t="Include" />
-                    <e p="OdinMenuEditorWindowExample.cs" t="Include" />
-                    <e p="OdinMenuStyleExample.cs" t="Include" />
-                    <e p="OverrideGetTargetsExampleWindow.cs" t="Include" />
-                    <e p="QuicklyInspectObjects.cs" t="Include" />
-                    <e p="SomeData.cs" t="Include" />
-                    <e p="SomeTextureToolWindow.cs" t="Include" />
-                  </e>
-                </e>
-              </e>
-            </e>
           </e>
         </e>
       </e>
