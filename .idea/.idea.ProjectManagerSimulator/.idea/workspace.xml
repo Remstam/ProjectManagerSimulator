@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="202c5782-c0e5-45d0-973b-cfc16c37197c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectManagerSimulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectManagerSimulator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,36 +11,44 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Code/Test.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <marker date="1573930317582" expanded="true" signature="6:78" ph="..." />
-                <marker date="1573930317582" expanded="true" signature="113:306" ph="{...}" />
-                <marker date="1573930317582" expanded="true" signature="185:206" ph="{...}" />
-                <marker date="1573930317582" expanded="true" signature="212:265" ph="/* test 2 ... */" />
-                <marker date="1573930317582" expanded="true" signature="283:304" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="225">
-                <caret line="15" column="81" lean-forward="true" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.29040912">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/Code/Test.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+                  <folding>
+                    <marker date="1573935721907" expanded="true" signature="6:78" ph="..." />
+                    <marker date="1573935721907" expanded="true" signature="113:297" ph="{...}" />
+                    <marker date="1573935721907" expanded="true" signature="185:197" ph="{...}" />
+                    <marker date="1573935721907" expanded="true" signature="203:256" ph="/* test 2 ... */" />
+                    <marker date="1573935721907" expanded="true" signature="274:295" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="705">
+                    <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,8 +59,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Code/Test.cs" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Assets/Code/Test.cs" />
       </list>
     </option>
   </component>
@@ -128,6 +135,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -180,7 +188,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573929876704</updated>
-      <workItem from="1573929880278" duration="1806000" />
+      <workItem from="1573929880278" duration="3879000" />
     </task>
     <task id="LOCAL-00001" summary="Check push availability&#10;Adding test.cs script">
       <created>1573929963166</created>
@@ -196,11 +204,32 @@
       <option name="project" value="LOCAL" />
       <updated>1573930339600</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Change README.md file.&#10;Adding dirty first iteration description structure of ScriptableObject">
+      <created>1573931829118</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573931829118</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Change README.md file.&#10;Adding more flexible fields on &quot;Figure Scriptable Object&quot;">
+      <created>1573935714908</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573935714908</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fix mistypes.">
+      <created>1573935737395</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573935737395</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1806000" />
+    <option name="totallyTimeSpent" value="3879000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -215,20 +244,21 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.2535211" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="SVN Repositories" weight="0.32876712" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="SVN Repositories" weight="0.32876712" />
+      <window_info anchor="bottom" id="Unity" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -236,11 +266,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Cargo" />
-      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Errors In Solution" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -250,11 +280,14 @@
     <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Check push availability&#10;Adding test.cs script" />
     <MESSAGE value="Test trash commit.&#10;Check pushing from IDE Rider" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test trash commit.&#10;Check pushing from IDE Rider" />
+    <MESSAGE value="Change README.md file.&#10;Adding dirty first iteration description structure of ScriptableObject" />
+    <MESSAGE value="Change README.md file.&#10;Adding more flexible fields on &quot;Figure Scriptable Object&quot;" />
+    <MESSAGE value="Fix mistypes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix mistypes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -267,27 +300,27 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Code/Test.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <marker date="1573930317582" expanded="true" signature="6:78" ph="..." />
-            <marker date="1573930317582" expanded="true" signature="113:306" ph="{...}" />
-            <marker date="1573930317582" expanded="true" signature="185:206" ph="{...}" />
-            <marker date="1573930317582" expanded="true" signature="212:265" ph="/* test 2 ... */" />
-            <marker date="1573930317582" expanded="true" signature="283:304" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="225">
-            <caret line="15" column="81" lean-forward="true" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
+          <first_editor relative-caret-position="705">
+            <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/Test.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <marker date="1573935721907" expanded="true" signature="6:78" ph="..." />
+            <marker date="1573935721907" expanded="true" signature="113:297" ph="{...}" />
+            <marker date="1573935721907" expanded="true" signature="185:197" ph="{...}" />
+            <marker date="1573935721907" expanded="true" signature="203:256" ph="/* test 2 ... */" />
+            <marker date="1573935721907" expanded="true" signature="274:295" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
