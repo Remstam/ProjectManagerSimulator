@@ -2,7 +2,249 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="202c5782-c0e5-45d0-973b-cfc16c37197c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/DOTween.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/DOTween.XML.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/DOTween.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/DOTween.dll.mdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/DOTween.dll.mdb.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/DOTween.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Editor/DOTweenEditor.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Editor/DOTweenEditor.XML.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Editor/DOTweenEditor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Editor/DOTweenEditor.dll.mdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Editor/DOTweenEditor.dll.mdb.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Editor/DOTweenEditor.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Editor/Imgs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Editor/Imgs/Footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Editor/Imgs/Footer.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Editor/Imgs/Footer_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Editor/Imgs/Footer_dark.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Editor/Imgs/Header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Editor/Imgs/Header.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Modules.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Modules/DOTween.Modules.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Modules/DOTween.Modules.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Modules/DOTweenModuleUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Demigiant/DOTween/readme.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/CustomModule_Example.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/CustomModule_Example.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Demo Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Demo Scenes/Hierarchy Example Scene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Demo Scenes/Hierarchy Example Scene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Demo Scenes/Hierarchy Example.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Demo Scenes/Hierarchy Example/EModules Example Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Demo Scenes/Hierarchy Example/EModules Example Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Demo Scenes/Hierarchy Example/EModules Example Material.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Demo Scenes/Hierarchy Example/EModules Example Material.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Demo Scenes/Hierarchy Example/EModules Example Prefab.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Demo Scenes/Hierarchy Example/EModules Example Prefab.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Demo Scenes/Hierarchy Example/EModules Example Texture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Demo Scenes/Hierarchy Example/EModules Example Texture.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Demo Scenes/HyperGraph Example Scene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Demo Scenes/HyperGraph Example Scene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Demo Scenes/HyperGraph Example.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Demo Scenes/HyperGraph Example/GameObjectManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Demo Scenes/HyperGraph Example/GameObjectManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Demo Scenes/HyperGraph Example/PrefabLibrary.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Demo Scenes/HyperGraph Example/PrefabLibrary.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Demo Scenes/HyperGraph Example/Script_A.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Demo Scenes/HyperGraph Example/Script_A.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Demo Scenes/HyperGraph Example/Script_B.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Demo Scenes/HyperGraph Example/Script_B.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Demo Scenes/HyperGraph Example/Script_C.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Demo Scenes/HyperGraph Example/Script_C.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Demo Scenes/HyperGraph Example/prefab_explosion.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Demo Scenes/HyperGraph Example/prefab_explosion.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/01 Getting Started.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/01 Getting Started/01-Introduction.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/01 Getting Started/01-Introduction.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/01 Getting Started/02 General Features.php.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/01 Getting Started/02 General Features.php.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/01 Getting Started/03-Installation.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/01 Getting Started/03-Installation.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/02 Right Panel.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/02 Right Panel/01-Enable-Disable-GameObject.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/02 Right Panel/01-Enable-Disable-GameObject.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/02 Right Panel/02-Components.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/02 Right Panel/02-Components.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/02 Right Panel/03-Descriptions.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/02 Right Panel/03-Descriptions.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/02 Right Panel/04-Order_-Tags_-Layers.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/02 Right Panel/04-Order_-Tags_-Layers.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/02 Right Panel/05-Memory-Optimizer.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/02 Right Panel/05-Memory-Optimizer.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/02 Right Panel/06-Prefab.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/02 Right Panel/06-Prefab.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/02 Right Panel/07-Lock-State.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/02 Right Panel/07-Lock-State.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/02 Right Panel/08-Audio.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/02 Right Panel/08-Audio.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/02 Right Panel/09-PlayMode-Data-Keeper.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/02 Right Panel/09-PlayMode-Data-Keeper.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/03 Left Panel.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/03 Left Panel/01 Highlighter Window.php.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/03 Left Panel/01 Highlighter Window.php.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/04 Bottom Panel.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/04 Bottom Panel/01 Navigation Module.php.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/04 Bottom Panel/01 Navigation Module.php.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/04 Bottom Panel/02 HyperGraph .php.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/04 Bottom Panel/02 HyperGraph .php.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/05 Other.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/05 Other/01 Custom Extensible Menu.php.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/05 Other/01 Custom Extensible Menu.php.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/05 Other/02 Search Box.php.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/05 Other/02 Search Box.php.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/05 Other/03 Cache and Data Storage.php.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Documentations/05 Other/03 Cache and Data Storage.php.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/FunctionsDisplaying_Example.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/FunctionsDisplaying_Example.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/HierarchyPro TopMenuItems And Hotkeys.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/HierarchyPro TopMenuItems And Hotkeys.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/HierarchySettings_ComponentsIcons.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/HierarchySettings_ComponentsIcons.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/HierarchySettings_HighLighter.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/HierarchySettings_HighLighter.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_checkBox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_checkBox.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_checkBoxOn1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_checkBoxOn1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_checkBoxOn2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_checkBoxOn2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_dot.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_dotBright.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_dotBright.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_errorGray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_errorGray.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_errorRed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_errorRed.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_favorite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_favorite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_folder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_folder.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_icon1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_icon2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_iconA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_iconA.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_iconMy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_iconMy.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_infoBox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_infoBox.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_tag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_tag.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Icons/Hi_warning.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/RightClickObjectLeftMenu_Example.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/RightClickObjectLeftMenu_Example.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/SharedFolder.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/SharedFolder/DescriptionFlush.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/SharedFolder/DescriptionFlush.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/SharedFolder/DescriptionHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/SharedFolder/DescriptionHelper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/SharedFolder/DescriptionRegistrator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/SharedFolder/DescriptionRegistrator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/SharedFolder/Hierarchy (MAYA outliner) Handler.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/SharedFolder/Hierarchy (MAYA outliner) Handler.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/SharedFolder/Hierarchy (MAYA outliner) Plugin.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/SharedFolder/Hierarchy (MAYA outliner) Plugin.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Source.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Source/Hierarchy (MAYA outliner) Editor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/EModules/Hierarchy/Source/Hierarchy (MAYA outliner) Editor.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Demos.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Demos/Attributes Overview.unitypackage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Demos/Attributes Overview.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Demos/Custom Attribute Processors.unitypackage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Demos/Custom Attribute Processors.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Demos/Custom Drawers.unitypackage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Demos/Custom Drawers.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Demos/Editor Windows.unitypackage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Demos/Editor Windows.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Demos/Sample - RPG Editor.unitypackage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Demos/Sample - RPG Editor.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Assets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Assets/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Assets/Editor/Odin Inspector Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Assets/Editor/Odin Inspector Logo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Assets/Editor/PathLookup.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Assets/Editor/PathLookup.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Config.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Config/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Config/Editor/GeneralDrawerConfig.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Config/Editor/GeneralDrawerConfig.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Config/Editor/InspectorConfig.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Config/Editor/InspectorConfig.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/Editor/AssemblyImportSettingsAutomation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/Editor/AssemblyImportSettingsAutomation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/Editor/BuildAOTAutomation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/Editor/BuildAOTAutomation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/Editor/EnsureOdinInspectorDefine.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/Editor/EnsureOdinInspectorDefine.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/Editor/FixBrokenUnityObjectWrapperDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/Editor/FixBrokenUnityObjectWrapperDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/Editor/Sirenix.OdinInspector.CompatibilityLayer.Editor.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/Editor/Sirenix.OdinInspector.CompatibilityLayer.Editor.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/Editor/SyncListDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/Editor/SyncListDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/Editor/SyncVarAttributeDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/Editor/SyncVarAttributeDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/Editor/Vector2IntMinMaxAttributeDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/Editor/Vector2IntMinMaxAttributeDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/Editor/VectorIntDrawers.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/Editor/VectorIntDrawers.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/Editor/VectorIntPropertyResolvers.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/Editor/VectorIntPropertyResolvers.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/SerializedNetworkBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/SerializedNetworkBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/Sirenix.OdinInspector.CompatibilityLayer.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/Sirenix.OdinInspector.CompatibilityLayer.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/VectorIntFormatters.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/VectorIntFormatters.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Readme.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Source.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Source/Source.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Source/Source.zip.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectManagerSimulator/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectManagerSimulator/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectManagerSimulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectManagerSimulator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Test.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,50 +253,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.29040912">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Assets/Code/Test.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-                  <folding>
-                    <marker date="1573935721907" expanded="true" signature="6:78" ph="..." />
-                    <marker date="1573935721907" expanded="true" signature="113:297" ph="{...}" />
-                    <marker date="1573935721907" expanded="true" signature="185:197" ph="{...}" />
-                    <marker date="1573935721907" expanded="true" signature="203:256" ph="/* test 2 ... */" />
-                    <marker date="1573935721907" expanded="true" signature="274:295" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="705">
-                    <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Code/Test.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+              <folding>
+                <marker date="1573937138359" expanded="false" signature="6:107" ph="..." />
+                <marker date="1573937138359" expanded="true" signature="142:412" ph="{...}" />
+                <marker date="1573937138359" expanded="true" signature="183:229" ph="{...}" />
+                <marker date="1573937138359" expanded="true" signature="300:312" ph="{...}" />
+                <marker date="1573937138359" expanded="true" signature="318:371" ph="/* test 2 ... */" />
+                <marker date="1573937138359" expanded="true" signature="389:410" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/Editor/AssemblyImportSettingsAutomation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Test.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/SerializedNetworkBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -73,7 +298,7 @@
     <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="FileSystemExplorer" proportions="" version="1">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -83,24 +308,6 @@
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="ProjectManagerSimulator" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ProjectManagerSimulator" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ProjectManagerSimulator" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ProjectManagerSimulator" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Code" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -188,7 +395,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573929876704</updated>
-      <workItem from="1573929880278" duration="3879000" />
+      <workItem from="1573929880278" duration="4369000" />
     </task>
     <task id="LOCAL-00001" summary="Check push availability&#10;Adding test.cs script">
       <created>1573929963166</created>
@@ -225,11 +432,18 @@
       <option name="project" value="LOCAL" />
       <updated>1573935737395</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adding ImportedAssets:&#10;- Odin&#10;- DoTween&#10;- Hierarchy pro">
+      <created>1573936806059</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1573936806059</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3879000" />
+    <option name="totallyTimeSpent" value="4369000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -247,7 +461,7 @@
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2535211" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25285044" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -287,7 +501,8 @@
     <MESSAGE value="Change README.md file.&#10;Adding dirty first iteration description structure of ScriptableObject" />
     <MESSAGE value="Change README.md file.&#10;Adding more flexible fields on &quot;Figure Scriptable Object&quot;" />
     <MESSAGE value="Fix mistypes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix mistypes." />
+    <MESSAGE value="Adding ImportedAssets:&#10;- Odin&#10;- DoTween&#10;- Hierarchy pro" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding ImportedAssets:&#10;- Odin&#10;- DoTween&#10;- Hierarchy pro" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -310,16 +525,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/Editor/AssemblyImportSettingsAutomation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-833">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding>
+            <marker date="1557749365000" expanded="true" signature="41:335" ph="/* ----------------------------------------------------------------------- ... */" />
+            <marker date="1557749365000" expanded="true" signature="375:3829" ph="{...}" />
+            <marker date="1557749365000" expanded="false" signature="388:612" ph="..." />
+            <marker date="1557749365000" expanded="true" signature="771:3827" ph="{...}" />
+            <marker date="1557749365000" expanded="true" signature="892:3136" ph="{...}" />
+            <marker date="1557749365000" expanded="true" signature="1037:1089" ph="{...}" />
+            <marker date="1557749365000" expanded="true" signature="1487:2016" ph="{...}" />
+            <marker date="1557749365000" expanded="true" signature="1582:2002" ph="{...}" />
+            <marker date="1557749365000" expanded="true" signature="1753:1843" ph="{...}" />
+            <marker date="1557749365000" expanded="true" signature="1894:1984" ph="{...}" />
+            <marker date="1557749365000" expanded="true" signature="2080:3028" ph="{...}" />
+            <marker date="1557749365000" expanded="true" signature="2437:2715" ph="{...}" />
+            <marker date="1557749365000" expanded="true" signature="2736:3014" ph="{...}" />
+            <marker date="1557749365000" expanded="true" signature="3048:3126" ph="{...}" />
+            <marker date="1557749365000" expanded="true" signature="3274:3500" ph="{...}" />
+            <marker date="1557749365000" expanded="true" signature="3343:3490" ph="{...}" />
+            <marker date="1557749365000" expanded="true" signature="3606:3665" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/SerializedNetworkBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+          <folding>
+            <marker date="1557749356000" expanded="true" signature="0:829" ph="/* ----------------------------------------------------------------------- ... */" />
+            <marker date="1557749356000" expanded="true" signature="919:2773" ph="{...}" />
+            <marker date="1557749356000" expanded="false" signature="932:1011" ph="..." />
+            <marker date="1557749356000" expanded="true" signature="1017:1287" ph="/// A Unity NetworkBehaviour which is serialized by the Sirenix serialization system. ... " />
+            <marker date="1557749356000" expanded="true" signature="1467:2771" ph="{...}" />
+            <marker date="1557749356000" expanded="true" signature="1791:1946" ph="{...}" />
+            <marker date="1557749356000" expanded="true" signature="2011:2163" ph="{...}" />
+            <marker date="1557749356000" expanded="true" signature="2173:2268" ph="/// Invoked after deserialization has taken place. ... " />
+            <marker date="1557749356000" expanded="true" signature="2320:2340" ph="{...}" />
+            <marker date="1557749356000" expanded="true" signature="2350:2444" ph="/// Invoked before serialization has taken place. ... " />
+            <marker date="1557749356000" expanded="true" signature="2495:2515" ph="{...}" />
+            <marker date="1557749356000" expanded="true" signature="2657:2757" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Code/Test.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="90">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
           <folding>
-            <marker date="1573935721907" expanded="true" signature="6:78" ph="..." />
-            <marker date="1573935721907" expanded="true" signature="113:297" ph="{...}" />
-            <marker date="1573935721907" expanded="true" signature="185:197" ph="{...}" />
-            <marker date="1573935721907" expanded="true" signature="203:256" ph="/* test 2 ... */" />
-            <marker date="1573935721907" expanded="true" signature="274:295" ph="{...}" />
+            <marker date="1573937138359" expanded="false" signature="6:107" ph="..." />
+            <marker date="1573937138359" expanded="true" signature="142:412" ph="{...}" />
+            <marker date="1573937138359" expanded="true" signature="183:229" ph="{...}" />
+            <marker date="1573937138359" expanded="true" signature="300:312" ph="{...}" />
+            <marker date="1573937138359" expanded="true" signature="318:371" ph="/* test 2 ... */" />
+            <marker date="1573937138359" expanded="true" signature="389:410" ph="{...}" />
           </folding>
         </state>
       </provider>
