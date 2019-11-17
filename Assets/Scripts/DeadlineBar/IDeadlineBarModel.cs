@@ -2,11 +2,11 @@
 using Assets.Scripts.Core.Difficulty;
 using Assets.Scripts.Storage;
 
-namespace Assets.Scripts.CoffeeBar
+namespace Assets.Scripts.DeadlineView
 {
-    public interface ICoffeeBar
+    public interface IDeadlineBarModel
     {
-        event Action BarFault;
+        event Action DeadlineHappened;
 
         void Init(DifficultyType type, IStorage storage);
         void Show();

@@ -22,6 +22,16 @@ namespace Assets.Scripts.CoffeeBar
             _view.Init(args[0], args[1], args[2]);
         }
 
+        public void Show()
+        {
+            _view.Show();
+        }
+
+        public void Hide()
+        {
+            _view.Hide();
+        }
+    
         public void Halt()
         {
             _view.Halt();

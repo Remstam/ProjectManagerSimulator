@@ -7,6 +7,8 @@ namespace Assets.Scripts.CoffeeBar
         event Action BarFault;
 
         void Init(int maxValue, int deltaInc, int deltaDec);
+        void Show();
+        void Hide();
         void Halt();
     }
 }

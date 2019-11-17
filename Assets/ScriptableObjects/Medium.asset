@@ -16,6 +16,7 @@ MonoBehaviour:
   maxCoffeeValue: 75
   deltaCoffeeIncrease: 6
   deltaCoffeeDecreasePerSecond: 3
+  deadlineTime: 15
   endGameDescriptions:
   - {fileID: 11400000, guid: fb607eedf7ff9a842a10a67d3f1645e3, type: 2}
   - {fileID: 11400000, guid: 3e84510d87e1f0b4aac2a5a9455cb9e0, type: 2}

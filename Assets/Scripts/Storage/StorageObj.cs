@@ -2,6 +2,7 @@
 using Assets.Scripts.Core;
 using Assets.Scripts.Core.Difficulty;
 using Assets.Scripts.Core.EndGame;
+using Assets.Scripts.DeadlineView;
 using Assets.Scripts.EndGameView;
 using Assets.Scripts.View;
 using Code.Alex;
@@ -16,6 +17,7 @@ namespace Assets.Scripts.Storage
         [SerializeField] private DifficultyPickerView _difficultyPickerViewPrefab;
         [SerializeField] private CoffeeBarView _coffeeBarView;
         [SerializeField] private EndGameView.EndGameView _endGameView;
+        [SerializeField] private DeadlineBarView _deadlineBarView;
 
         public IDifficultyPickerView GetDifficultyPickerView()
         {
@@ -35,6 +37,12 @@ namespace Assets.Scripts.Storage
             return obj;
         }
 
+        public IDeadlineBarView GetDeadlineBarView()
+        {
+            var obj = Instantiate(_deadlineBarView, _canvasTransform, false);
+            return obj;
+        }
+
         public int[] GetCoffeeBarParams(DifficultyType type)
         {
             var result = new int[3];
@@ -43,6 +51,12 @@ namespace Assets.Scripts.Storage
             result[1] = setup.deltaCoffeeIncrease;
             result[2] = setup.deltaCoffeeDecreasePerSecond;
             return result;
+        }
+
+        public int GetDeadlineTime(DifficultyType type)
+        {
+            var setup = _levelSetup.GetSetupByDifficulty(type);
+            return setup.deadlineTime;
         }
 
         public IEndGameDescription GetEndGameDescription(DifficultyType type, GameResultType result)

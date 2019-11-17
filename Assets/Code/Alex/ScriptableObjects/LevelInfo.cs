@@ -15,6 +15,9 @@ namespace Code.Alex.ScriptableObjects
         [Title("Coffee Setup")] public int maxCoffeeValue;
         public int deltaCoffeeIncrease;
         public int deltaCoffeeDecreasePerSecond;
+        [Title("Deadline Setup")]
+        public int deadlineTime;
+        [Title("EndGame descriptions")]
         public List<EndGameDescription> endGameDescriptions;
 
         public IEndGameDescription GetEndGameDescription(GameResultType resultType)

@@ -43,6 +43,16 @@ namespace Assets.Scripts.CoffeeBar
             StartCoroutine(_routine);
         }
 
+        public void Show()
+        {
+            gameObject.SetActive(true);
+        }
+
+        public void Hide()
+        {
+            gameObject.SetActive(false);
+        }
+
         public void Halt()
         {
             StopCoroutine(_routine);

@@ -1,7 +1,4 @@
-using System.Collections.Generic;
 using Assets.Scripts.Core.Difficulty;
-using Assets.Scripts.Core.EndGame;
-using Assets.Scripts.Storage;
 using Code.Alex.ScriptableObjects;
 using UnityEngine;
 
