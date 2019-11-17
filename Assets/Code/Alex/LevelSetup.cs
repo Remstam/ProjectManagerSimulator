@@ -12,14 +12,43 @@ namespace Code.Alex
         [Header("Easy")] public List<BaseState> easyStates;
         [Header("Medium")] public List<BaseState> mediumStates;
         [Header("Hardcore")] public List<BaseState> hardcodeStates;
+        public int MaxPlayerMistakes { get; set; } = 3;
+
+        public int CountPlayerMistakes
+        {
+            get => _countPlayerMistakes;
+            set
+            {
+                _countPlayerMistakes = value;
+                if (_countPlayerMistakes == MaxPlayerMistakes)
+                {
+                    OnGameEnd?.Invoke();
+                }
+            }
+        }
 
         public event Action OnGameEnd = () => { };
+        
         private Queue<BaseState> _queueStages;
+        private int _countPlayerMistakes;
 
         public void Awake()
         {
             // todo add difficulty selector
             StartGame();
+            
+            // test subscribe
+            OnGameEnd += GameEnd;
+        }
+
+        private void GameEnd()
+        {
+            foreach (var product in FigureFactory.ListProducts)
+            {
+                product.Dispose();
+            }
+            FigureFactory.ListProducts.Clear();
+            print("GameEnd");
         }
 
         private void StartGame()
@@ -33,12 +62,12 @@ namespace Code.Alex
         {
             if (_queueStages.Count == 0)
             {
-                print("Game Over");
                 OnGameEnd?.Invoke();
-                return;
             }
-
-            _queueStages.Dequeue().StartState();
+            else
+            {
+                _queueStages.Dequeue().StartState();
+            }
         }
     }
 }

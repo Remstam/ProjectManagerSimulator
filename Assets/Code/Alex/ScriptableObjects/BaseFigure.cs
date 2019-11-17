@@ -1,3 +1,4 @@
+using System;
 using Code.Alex.Helper;
 using DG.Tweening;
 using Sirenix.OdinInspector;
@@ -22,6 +23,8 @@ namespace Code.Alex.ScriptableObjects
         public string text;
         public float fallTime;
 
+        public event Action<BaseFigure> OnMoveEnd = e => { };
+
         private Vector3 _startPoint;
         private Vector2 _endPoint;
 
@@ -39,8 +42,13 @@ namespace Code.Alex.ScriptableObjects
 
             // setup move figure
             var sizeChange = fRect.DOSizeDelta(endFallSize, fallTime).SetEase(sizeChangeAnimation);
-            var fMove = fRect.DOLocalMove(_endPoint, fallTime).SetEase(moveAnimation);
-            
+            var fMove = fRect.DOLocalMove(_endPoint, fallTime).SetEase(moveAnimation)
+                .OnComplete(() =>
+                {
+                    OnMoveEnd?.Invoke(this);
+                    instance.Dispose();
+                });
+
             // setup DragNDrop
             var dragNDrop = instance.Add<DragNDrop>();
             dragNDrop.SetFigure(new Figure(figureColor, figureType));

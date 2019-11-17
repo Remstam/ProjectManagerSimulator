@@ -1,18 +1,25 @@
-﻿using Code.Alex.Helper;
+﻿using System;
+using Code.Alex.Helper;
 using Code.Alex.ScriptableObjects;
 using UnityEngine;
 
-namespace Code
+namespace Code.Alex
 {
     public class MatchIconUi : MonoBehaviour
     {
         public MatchIcon matchFigure;
 
+        private LevelSetup _levelSetup;
+        private void Start()
+        {
+            _levelSetup = FindObjectOfType<LevelSetup>();
+        }
+
         public void Match(Figure figure)
         {
-            var onlyColor = figure.FigureColor ==  matchFigure.matchColor&& figure.FigureType != matchFigure.matchType;
-            var onlyType = figure.FigureColor !=   matchFigure.matchColor&& figure.FigureType == matchFigure.matchType;
-            var colorNType = figure.FigureColor == matchFigure.matchColor&& figure.FigureType == matchFigure.matchType;
+            var onlyColor = figure.FigureColor == matchFigure.matchColor && figure.FigureType != matchFigure.matchType;
+            var onlyType = figure.FigureColor != matchFigure.matchColor && figure.FigureType == matchFigure.matchType;
+            var colorNType = figure.FigureColor == matchFigure.matchColor && figure.FigureType == matchFigure.matchType;
 
             if (onlyColor)
             {
@@ -29,6 +36,7 @@ namespace Code
             else
             {
                 print("Nothing");
+                _levelSetup.CountPlayerMistakes++;
             }
         }
     }
