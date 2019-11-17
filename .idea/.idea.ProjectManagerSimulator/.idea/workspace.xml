@@ -1,21 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="202c5782-c0e5-45d0-973b-cfc16c37197c" name="Default Changelist" comment="Create base ScriptableObjects:&#10;- BaseFigure&#10;- BaseState&#10;Edit README.md&#10;- Actualize">
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex/Helper.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex/Helper/FigureColor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex/Helper/FigureColor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex/Helper/FigureType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex/LevelSetup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex/LevelSetup.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/BaseFigure.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/BaseFigure.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/BaseState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/BaseState.cs.meta" afterDir="false" />
+    <list default="true" id="202c5782-c0e5-45d0-973b-cfc16c37197c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex/CoroutineChain.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex/CoroutineChain.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex/DragNDrop.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex/Helper/Extensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex/Helper/Extensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex/Helper/FactoryProduct.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex/Helper/FactoryProduct.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex/Helper/Figure.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex/Helper/Figure.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex/Helper/FigureFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex/Helper/FigureFactory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex/MatchIconUi.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/MatchIcon.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/MatchIcon.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectManagerSimulator/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectManagerSimulator/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectManagerSimulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectManagerSimulator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Alex/LevelSetup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Alex/LevelSetup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/BaseFigure.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/BaseFigure.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/BaseState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/BaseState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/MatchIconUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Test.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,21 +32,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.54325956">
       <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Assets/Code/Test.cs">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/BaseState.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+                <state relative-caret-position="172">
+                  <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
                   <folding>
-                    <marker date="1573937454740" expanded="false" signature="6:126" ph="..." />
-                    <marker date="1573937454740" expanded="true" signature="161:440" ph="{...}" />
-                    <marker date="1573937454740" expanded="true" signature="202:248" ph="{...}" />
-                    <marker date="1573937454740" expanded="true" signature="319:340" ph="{...}" />
-                    <marker date="1573937454740" expanded="true" signature="346:399" ph="/* test 2 ... */" />
-                    <marker date="1573937454740" expanded="true" signature="417:438" ph="{...}" />
+                    <marker date="1574009625248" expanded="true" signature="6:214" ph="..." />
+                    <marker date="1574009625248" expanded="true" signature="253:2325" ph="{...}" />
+                    <marker date="1574009625248" expanded="true" signature="354:2323" ph="{...}" />
+                    <marker date="1574009625248" expanded="true" signature="1181:1413" ph="{...}" />
+                    <marker date="1574009625248" expanded="true" signature="1452:1977" ph="{...}" />
+                    <marker date="1574009625248" expanded="true" signature="1498:1589" ph="{...}" />
+                    <marker date="1574009625248" expanded="true" signature="1643:1967" ph="{...}" />
+                    <marker date="1574009625248" expanded="true" signature="2018:2317" ph="{...}" />
+                    <marker date="1574009625248" expanded="true" signature="2081:2273" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -48,41 +58,71 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/BaseFigure.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="19" selection-start-line="19" selection-end-line="19" />
+                <state relative-caret-position="117">
+                  <caret line="30" selection-start-line="30" selection-end-line="30" />
                   <folding>
-                    <marker date="1573941441332" expanded="true" signature="6:90" ph="..." />
-                    <marker date="1573941441332" expanded="true" signature="129:615" ph="{...}" />
-                    <marker date="1573941441332" expanded="true" signature="233:613" ph="{...}" />
+                    <marker date="1574008646581" expanded="false" signature="6:147" ph="..." />
+                    <marker date="1574008646581" expanded="true" signature="186:2238" ph="{...}" />
+                    <marker date="1574008646581" expanded="true" signature="289:2236" ph="{...}" />
+                    <marker date="1574008646581" expanded="true" signature="876:1999" ph="{...}" />
+                    <marker date="1574008646581" expanded="true" signature="2050:2230" ph="{...}" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/LevelSetup.cs">
+            <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/Helper/FigureFactory.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+                <state relative-caret-position="405">
+                  <caret line="27" selection-start-line="27" selection-end-line="27" />
                   <folding>
-                    <marker date="1573941441198" expanded="true" signature="6:87" ph="..." />
-                    <marker date="1573941441198" expanded="true" signature="108:498" ph="{...}" />
-                    <marker date="1573941441198" expanded="true" signature="115:248" ph="/// Управляет переключением уровней на низком уровне ... " />
-                    <marker date="1573941441198" expanded="true" signature="292:496" ph="{...}" />
+                    <marker date="1574008874166" expanded="true" signature="6:140" ph="..." />
+                    <marker date="1574008874166" expanded="true" signature="168:2311" ph="{...}" />
+                    <marker date="1574008874166" expanded="true" signature="208:2309" ph="{...}" />
+                    <marker date="1574008874166" expanded="true" signature="424:1038" ph="{...}" />
+                    <marker date="1574008874166" expanded="true" signature="450:915" ph="{...}" />
+                    <marker date="1574008874166" expanded="true" signature="947:1028" ph="{...}" />
+                    <marker date="1574008874166" expanded="true" signature="1114:2303" ph="{...}" />
+                    <marker date="1574008874166" expanded="true" signature="1157:2293" ph="{...}" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/BaseState.cs">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/Helper/FactoryProduct.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+                <state relative-caret-position="457">
+                  <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
                   <folding>
-                    <marker date="1573941441326" expanded="true" signature="6:81" ph="..." />
-                    <marker date="1573941441326" expanded="true" signature="120:703" ph="{...}" />
-                    <marker date="1573941441326" expanded="true" signature="221:701" ph="{...}" />
+                    <marker date="1574008226598" expanded="true" signature="6:67" ph="..." />
+                    <marker date="1574008226598" expanded="true" signature="95:770" ph="{...}" />
+                    <marker date="1574008226598" expanded="true" signature="143:768" ph="{...}" />
+                    <marker date="1574008226598" expanded="true" signature="246:298" ph="{...}" />
+                    <marker date="1574008226598" expanded="true" signature="353:420" ph="{...}" />
+                    <marker date="1574008226598" expanded="true" signature="475:542" ph="{...}" />
+                    <marker date="1574008226598" expanded="true" signature="596:673" ph="{...}" />
+                    <marker date="1574008226598" expanded="true" signature="704:762" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/MatchIconUi.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+                  <folding>
+                    <marker date="1574008648596" expanded="true" signature="6:77" ph="..." />
+                    <marker date="1574008648596" expanded="true" signature="93:995" ph="{...}" />
+                    <marker date="1574008648596" expanded="true" signature="140:993" ph="{...}" />
+                    <marker date="1574008648596" expanded="true" signature="226:987" ph="{...}" />
+                    <marker date="1574008648596" expanded="true" signature="624:694" ph="{...}" />
+                    <marker date="1574008648596" expanded="true" signature="725:794" ph="{...}" />
+                    <marker date="1574008648596" expanded="true" signature="827:898" ph="{...}" />
+                    <marker date="1574008648596" expanded="true" signature="915:977" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -91,15 +131,20 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/Helper/FigureType.cs">
+            <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/LevelSetup.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+                <state relative-caret-position="600">
+                  <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
                   <folding>
-                    <marker date="1573940330332" expanded="true" signature="26:183" ph="{...}" />
-                    <marker date="1573940330332" expanded="true" signature="62:181" ph="{...}" />
+                    <marker date="1574009683457" expanded="true" signature="6:150" ph="..." />
+                    <marker date="1574009683457" expanded="true" signature="171:1104" ph="{...}" />
+                    <marker date="1574009683457" expanded="true" signature="217:1102" ph="{...}" />
+                    <marker date="1574009683457" expanded="true" signature="543:632" ph="{...}" />
+                    <marker date="1574009683457" expanded="true" signature="666:826" ph="{...}" />
+                    <marker date="1574009683457" expanded="true" signature="860:1096" ph="{...}" />
+                    <marker date="1574009683457" expanded="true" signature="911:1036" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -113,15 +158,33 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/Editor/AssemblyImportSettingsAutomation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/BaseState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/Alex/Helper/FigureType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Alex/MatchIconUi.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EF28F193-EAB6-4E49-B44B-3FB27EAB4F75/a2/46c7dc70/Action.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/BaseFigure.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EF28F193-EAB6-4E49-B44B-3FB27EAB4F75/f8/18b5b2ab/Enum.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7A0B7E54-DB61-46BC-B447-AE7B749DE9BF/1b/275cbda5/RectExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Alex/Helper/FigureFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/MatchIcon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4379FCB5-FFCD-422A-BDAB-E963856EF063/24/9eb66529/DOGetter`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4379FCB5-FFCD-422A-BDAB-E963856EF063/33/fee097d2/TweenSettingsExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4379FCB5-FFCD-422A-BDAB-E963856EF063/4c/80b49400/TweenType.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/Test.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/SerializedNetworkBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Alex/LevelSetup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Alex/Helper/Figure.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/Editor/AssemblyImportSettingsAutomation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CF7FB9A7-54E7-4776-AE71-C25165CA083C/f7/277f4007/Color.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/BaseState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Alex/DragNDrop.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ImportedAssets/Sirenix/Odin Inspector/Scripts/SerializedNetworkBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4379FCB5-FFCD-422A-BDAB-E963856EF063/28/cbd204eb/ShortcutExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/862B9365-843C-4BF1-BA93-210C124BB523/c6/e19597a2/Queue`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Alex/Helper/FigureColor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CF7FB9A7-54E7-4776-AE71-C25165CA083C/02/19fca347/SerializeField.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Alex/Helper/FigureType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CF7FB9A7-54E7-4776-AE71-C25165CA083C/a3/f507c2b3/Rect.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Alex/CoroutineChain.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Alex/Helper/Extensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Alex/Helper/FactoryProduct.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2DC90B95-CAEA-499E-A2C2-0BCC347210D0/50/6fdaf76c/MinMaxSliderAttribute.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -129,13 +192,25 @@
         <option value="$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/BaseStates.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Alex/Helper/FigureType.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Alex/Helper/FigureColor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Test.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/UIFigures.cs" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/BaseLevelSetup.cs" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Assets/Code/Alex/CoroutineChain.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Test.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Alex/Helper/Figure.cs" />
+        <option value="$PROJECT_DIR$/Assets/DragNDrop.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/MatchIcon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/MatchIconUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/MatchIconUi.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/BaseFigure.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Alex/LevelSetup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Alex/DragNDrop.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/MatchIcon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Alex/Helper/Extensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Alex/Helper/FactoryProduct.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Alex/MatchIconUi.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Alex/Helper/FigureFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/BaseState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Alex/LevelSetup.cs" />
       </list>
     </option>
   </component>
@@ -155,6 +230,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="ImportedAssets" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="ImportedAssets" type="1045f7f1:UnityExplorerNode" />
+              <item name="Sirenix" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -195,6 +294,15 @@
               <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Code" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Alex" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Helper" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ProjectManagerSimulator" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Code" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Alex" type="24d0babc:SolutionExplorerModelNode" />
               <item name="ScriptableObjects" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
@@ -209,53 +317,11 @@
               <item name="" type="161ac34:FileSystemExplorerRootNode" />
               <item name="ProjectManagerSimulator" type="34e6ba20:FileSystemExplorerNode" />
             </path>
-            <path>
-              <item name="" type="161ac34:FileSystemExplorerRootNode" />
-              <item name="ProjectManagerSimulator" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="Assets" type="34e6ba20:FileSystemExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="161ac34:FileSystemExplorerRootNode" />
-              <item name="ProjectManagerSimulator" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="Assets" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="Code" type="34e6ba20:FileSystemExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="161ac34:FileSystemExplorerRootNode" />
-              <item name="ProjectManagerSimulator" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="Assets" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="Code" type="34e6ba20:FileSystemExplorerNode" />
-              <item name="Alex" type="34e6ba20:FileSystemExplorerNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AssemblyExplorer" />
-      <pane id="UnityExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="ImportedAssets" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="ImportedAssets" type="1045f7f1:UnityExplorerNode" />
-              <item name="Sirenix" type="1045f7f1:UnityExplorerNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-hidden-items" value="false" />
-        <option name="show-project-names" value="true" />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -272,6 +338,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -312,7 +379,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573929876704</updated>
-      <workItem from="1573929880278" duration="8648000" />
+      <workItem from="1573929880278" duration="10329000" />
+      <workItem from="1573984782528" duration="24606000" />
     </task>
     <task id="LOCAL-00001" summary="Check push availability&#10;Adding test.cs script">
       <created>1573929963166</created>
@@ -370,11 +438,18 @@
       <option name="project" value="LOCAL" />
       <updated>1573938376471</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Create base ScriptableObjects:&#10;- BaseFigure&#10;- BaseState&#10;Create LevelSetup&#10;Edit README.md&#10;- Actualize">
+      <created>1573941528246</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1573941528246</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8648000" />
+    <option name="totallyTimeSpent" value="34935000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -389,21 +464,12 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25285044" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18108653" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Performance Profiler" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="SVN Repositories" weight="0.32876712" />
-      <window_info anchor="bottom" id="Unity" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Change Signature" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -411,14 +477,24 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Cargo" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
-      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="NuGet" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.32876712" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="SVN Repositories" order="15" weight="0.32876712" />
+      <window_info anchor="bottom" id="Unity" order="16" weight="0.32876712" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Cargo" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +511,8 @@
     <MESSAGE value="Fix mistypes." />
     <MESSAGE value="Adding ImportedAssets:&#10;- Odin&#10;- DoTween&#10;- Hierarchy pro" />
     <MESSAGE value="Adding ImportedAssets to VCS:&#10;- Odin&#10;- DoTween&#10;- Hierarchy pro" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding ImportedAssets to VCS:&#10;- Odin&#10;- DoTween&#10;- Hierarchy pro" />
+    <MESSAGE value="Create base ScriptableObjects:&#10;- BaseFigure&#10;- BaseState&#10;Create LevelSetup&#10;Edit README.md&#10;- Actualize" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create base ScriptableObjects:&#10;- BaseFigure&#10;- BaseState&#10;Create LevelSetup&#10;Edit README.md&#10;- Actualize" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -495,17 +572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/Helper/FigureType.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <marker date="1573940330332" expanded="true" signature="26:183" ph="{...}" />
-            <marker date="1573940330332" expanded="true" signature="62:181" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4379FCB5-FFCD-422A-BDAB-E963856EF063/4c/80b49400/TweenType.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -513,17 +579,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/UIFigures.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+    <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/UIFigures.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/BaseLevelSetup.cs" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="185">
+            <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+          </first_editor>
+          <second_editor />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Megapolis AR/Assets/Scripts/Alex/CoroutineChain.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-773" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/Helper/FigureColor.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="30">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
           <folding>
             <marker date="1573940330205" expanded="true" signature="26:213" ph="{...}" />
             <marker date="1573940330205" expanded="true" signature="63:211" ph="{...}" />
@@ -531,71 +607,545 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="125">
-            <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CF7FB9A7-54E7-4776-AE71-C25165CA083C/f7/277f4007/Color.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3810">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Code/Test.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EF28F193-EAB6-4E49-B44B-3FB27EAB4F75/f8/18b5b2ab/Enum.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="227">
+          <caret line="636" column="27" selection-start-line="636" selection-start-column="27" selection-end-line="636" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4379FCB5-FFCD-422A-BDAB-E963856EF063/24/9eb66529/DOGetter`1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7A0B7E54-DB61-46BC-B447-AE7B749DE9BF/1b/275cbda5/RectExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4379FCB5-FFCD-422A-BDAB-E963856EF063/33/fee097d2/TweenSettingsExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="103" column="20" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/Helper/FigureType.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
-            <marker date="1573937454740" expanded="false" signature="6:126" ph="..." />
-            <marker date="1573937454740" expanded="true" signature="161:440" ph="{...}" />
-            <marker date="1573937454740" expanded="true" signature="202:248" ph="{...}" />
-            <marker date="1573937454740" expanded="true" signature="319:340" ph="{...}" />
-            <marker date="1573937454740" expanded="true" signature="346:399" ph="/* test 2 ... */" />
-            <marker date="1573937454740" expanded="true" signature="417:438" ph="{...}" />
+            <marker date="1573940330332" expanded="true" signature="26:183" ph="{...}" />
+            <marker date="1573940330332" expanded="true" signature="62:181" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/BaseLevelSetup.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4379FCB5-FFCD-422A-BDAB-E963856EF063/28/cbd204eb/ShortcutExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="664" column="63" selection-start-line="664" selection-start-column="63" selection-end-line="664" selection-end-column="63" />
+          <folding>
+            <marker date="1573990719956" expanded="true" signature="0:316" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1573990719956" expanded="true" signature="581:96846" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="586:731" ph="/// Methods that extend known Unity objects and allow to directly create and control tweens from their instances ... " />
+            <marker date="1573990719956" expanded="true" signature="772:96844" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="781:1083" ph="///Tweens a Camera's &lt;code&gt;aspect&lt;/code&gt; to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="1221:1493" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="1499:1797" ph="///Tweens a Camera's backgroundColor to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="1934:2224" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="2230:2538" ph="///Tweens a Camera's &lt;code&gt;farClipPlane&lt;/code&gt; to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="2682:2966" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="2972:3279" ph="///Tweens a Camera's &lt;code&gt;fieldOfView&lt;/code&gt; to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="3422:3704" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="3710:4019" ph="///Tweens a Camera's &lt;code&gt;nearClipPlane&lt;/code&gt; to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="4164:4450" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="4456:4768" ph="///Tweens a Camera's &lt;code&gt;orthographicSize&lt;/code&gt; to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="4909:5201" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="5207:5512" ph="///Tweens a Camera's &lt;code&gt;pixelRect&lt;/code&gt; to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="5649:5919" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="5925:6225" ph="///Tweens a Camera's &lt;code&gt;rect&lt;/code&gt; to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="6357:6617" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="6623:7375" ph="///Shakes a Camera's localPosition along its relative X Y axes with the given values. ... " />
+            <marker date="1573990719956" expanded="true" signature="7574:8221" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="8227:8992" ph="///Shakes a Camera's localPosition along its relative X Y axes with the given values. ... " />
+            <marker date="1573990719956" expanded="true" signature="9188:9829" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="9835:10537" ph="///Shakes a Camera's localRotation. ... " />
+            <marker date="1573990719956" expanded="true" signature="10737:11392" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="11398:12113" ph="///Shakes a Camera's localRotation. ... " />
+            <marker date="1573990719956" expanded="true" signature="12309:12957" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="12963:13249" ph="///Tweens a Light's color to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="13385:13655" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="13661:13951" ph="///Tweens a Light's intensity to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="14091:14369" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="14375:14670" ph="///Tweens a Light's shadowStrength to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="14815:15103" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="15109:15633" ph="///Tweens a LineRenderer's color to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="15770:16002" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="16008:16300" ph="///Tweens a Material's color to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="16439:16709" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="16715:17131" ph="///Tweens a Material's named color property to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="17293:17803" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="17340:17514" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="17809:18255" ph="///Tweens a Material's named color property with the given ID to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="18416:18934" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="18465:18641" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="18940:19311" ph="///Tweens a Material's alpha color to the given value ... " />
+            <marker date="1573990719956" expanded="true" signature="19449:19736" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="19742:20222" ph="///Tweens a Material's alpha color to the given value ... " />
+            <marker date="1573990719956" expanded="true" signature="20383:20910" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="20430:20604" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="20916:21426" ph="///Tweens a Material's alpha color with the given ID to the given value ... " />
+            <marker date="1573990719956" expanded="true" signature="21586:22121" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="21635:21811" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="22127:22516" ph="///Tweens a Material's named float property to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="22678:23188" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="22725:22899" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="23194:23640" ph="///Tweens a Material's named float property with the given ID to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="23801:24319" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="23850:24026" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="24325:24626" ph="///Tweens a Material's texture offset to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="24773:25081" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="25087:25485" ph="///Tweens a Material's named texture offset property to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="25655:26200" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="25702:25881" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="26206:26506" ph="///Tweens a Material's texture scale to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="26653:26959" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="26965:27362" ph="///Tweens a Material's named texture scale property to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="27532:28075" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="27579:27758" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="28081:28471" ph="///Tweens a Material's named Vector property to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="28641:29172" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="28688:28867" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="29178:29625" ph="///Tweens a Material's named Vector property with the given ID to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="29794:30333" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="29843:30024" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="30339:30731" ph="///Tweens a TrailRenderer's startWidth/endWidth to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="30872:31226" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="31022:31095" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="31232:31533" ph="///Tweens a TrailRenderer's time to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="31676:31944" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="31950:32346" ph="///Tweens a Transform's position to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="32521:32795" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="32801:33199" ph="///Tweens a Transform's X position to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="33373:33690" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="33696:34094" ph="///Tweens a Transform's Y position to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="34268:34585" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="34591:34989" ph="///Tweens a Transform's Z position to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="35163:35480" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="35486:35887" ph="///Tweens a Transform's localPosition to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="36067:36351" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="36357:36760" ph="///Tweens a Transform's X localPosition to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="36939:37266" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="37272:37675" ph="///Tweens a Transform's Y localPosition to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="37854:38181" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="38187:38590" ph="///Tweens a Transform's Z localPosition to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="38769:39096" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="39102:39448" ph="///Tweens a Transform's rotation to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="39644:39993" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="39999:40630" ph="///Tweens a Transform's rotation to the given value using pure quaternion values. ... " />
+            <marker date="1573990719956" expanded="true" signature="40793:41209" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="41215:41566" ph="///Tweens a Transform's localRotation to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="41767:42126" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="42132:42768" ph="///Tweens a Transform's rotation to the given value using pure quaternion values. ... " />
+            <marker date="1573990719956" expanded="true" signature="42936:43362" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="43368:43667" ph="///Tweens a Transform's localScale to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="43814:44108" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="44114:44423" ph="///Tweens a Transform's localScale uniformly to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="44568:44895" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="44901:45202" ph="///Tweens a Transform's X localScale to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="45348:45666" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="45672:45973" ph="///Tweens a Transform's Y localScale to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="46119:46437" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="46443:46744" ph="///Tweens a Transform's Z localScale to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="46890:47208" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="47214:47731" ph="///Tweens a Transform's rotation so that it will look towards the given position. ... " />
+            <marker date="1573990719956" expanded="true" signature="47926:48497" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="48503:49368" ph="///Punches a Transform's localPosition towards the given direction and then back to the starting one ... " />
+            <marker date="1573990719956" expanded="true" signature="49565:50066" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="50072:50794" ph="///Punches a Transform's localScale towards the given size and then back to the starting one ... " />
+            <marker date="1573990719956" expanded="true" signature="50959:51440" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="51446:52184" ph="///Punches a Transform's localRotation towards the given size and then back to the starting one ... " />
+            <marker date="1573990719956" expanded="true" signature="52352:52863" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="52869:53600" ph="///Shakes a Transform's localPosition with the given values. ... " />
+            <marker date="1573990719956" expanded="true" signature="53831:54456" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="54462:55206" ph="///Shakes a Transform's localPosition with the given values. ... " />
+            <marker date="1573990719956" expanded="true" signature="55434:56052" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="56058:56668" ph="///Shakes a Transform's localRotation. ... " />
+            <marker date="1573990719956" expanded="true" signature="56871:57506" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="57512:58135" ph="///Shakes a Transform's localRotation. ... " />
+            <marker date="1573990719956" expanded="true" signature="58334:58962" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="58968:59575" ph="///Shakes a Transform's localScale. ... " />
+            <marker date="1573990719956" expanded="true" signature="59774:60427" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="60433:61053" ph="///Shakes a Transform's localScale. ... " />
+            <marker date="1573990719956" expanded="true" signature="61249:61847" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="61853:62545" ph="///Tweens a Transform's position to the given value, while also applying a jump effect along the Y axis. ... " />
+            <marker date="1573990719956" expanded="true" signature="62727:64319" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="63954:64294" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="63980:64101" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="64325:65022" ph="///Tweens a Transform's localPosition to the given value, while also applying a jump effect along the Y axis. ... " />
+            <marker date="1573990719956" expanded="true" signature="65209:66765" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="66372:66740" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="66398:66520" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="66771:67758" ph="///Tweens a Transform's position through the given path waypoints, using the chosen path algorithm. ... " />
+            <marker date="1573990719956" expanded="true" signature="68042:68516" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="68522:69479" ph="///Tweens a Transform's localPosition through the given path waypoints, using the chosen path algorithm. ... " />
+            <marker date="1573990719956" expanded="true" signature="69768:70307" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="70313:70822" ph="///IMPORTANT: Unless you really know what you're doing, you should use the overload that accepts a Vector3 array  ... " />
+            <marker date="1573990719956" expanded="true" signature="70999:71379" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="71385:71899" ph="///IMPORTANT: Unless you really know what you're doing, you should use the overload that accepts a Vector3 array  ... " />
+            <marker date="1573990719956" expanded="true" signature="72081:72526" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="72532:72822" ph="///Tweens a Tween's timeScale to the given value. ... " />
+            <marker date="1573990719956" expanded="true" signature="72962:73240" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="73246:73695" ph="///Tweens a Light's color to the given value, ... " />
+            <marker date="1573990719956" expanded="true" signature="73808:74216" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="73993:74079" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="74222:74677" ph="///Tweens a Material's color to the given value, ... " />
+            <marker date="1573990719956" expanded="true" signature="74793:75201" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="74978:75064" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="75207:75786" ph="///Tweens a Material's named color property to the given value, ... " />
+            <marker date="1573990719956" expanded="true" signature="75925:76568" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="75972:76114" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="76306:76431" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="76574:77183" ph="///Tweens a Material's named color property with the given ID to the given value, ... " />
+            <marker date="1573990719956" expanded="true" signature="77321:77974" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="77370:77514" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="77708:77837" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="77980:78583" ph="///Tweens a Transform's position BY the given value (as if you chained a &lt;code&gt;SetRelative&lt;/code&gt;), ... " />
+            <marker date="1573990719956" expanded="true" signature="78731:79084" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="78859:78954" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="79090:79698" ph="///Tweens a Transform's localPosition BY the given value (as if you chained a &lt;code&gt;SetRelative&lt;/code&gt;), ... " />
+            <marker date="1573990719956" expanded="true" signature="79851:80209" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="79979:80079" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="80215:80794" ph="///EXPERIMENTAL METHOD - Tweens a Transform's rotation BY the given value (as if you chained a &lt;code&gt;SetRelative&lt; ... " />
+            <marker date="1573990719956" expanded="true" signature="80956:81601" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="81159:81356" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="81607:82191" ph="///EXPERIMENTAL METHOD - Tweens a Transform's lcoalRotation BY the given value (as if you chained a &lt;code&gt;SetRela ... " />
+            <marker date="1573990719956" expanded="true" signature="82358:83023" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="82561:82778" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="83029:83867" ph="///Punches a Transform's localRotation BY the given value and then back to the starting one ... " />
+            <marker date="1573990719956" expanded="true" signature="84044:84913" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="84086:84298" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="84433:84732" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="84919:85427" ph="///Tweens a Transform's localScale BY the given value (as if you chained a &lt;code&gt;SetRelative&lt;/code&gt;), ... " />
+            <marker date="1573990719956" expanded="true" signature="85547:85928" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="85685:85782" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="85934:86438" ph="/// Completes all tweens that have this target as a reference ... " />
+            <marker date="1573990719956" expanded="true" signature="86522:86597" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="86603:87107" ph="/// Completes all tweens that have this target as a reference ... " />
+            <marker date="1573990719956" expanded="true" signature="87190:87265" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="87271:87605" ph="/// Kills all tweens that have this target as a reference ... " />
+            <marker date="1573990719956" expanded="true" signature="87680:87746" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="87752:88086" ph="/// Kills all tweens that have this target as a reference ... " />
+            <marker date="1573990719956" expanded="true" signature="88160:88226" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="88232:88548" ph="/// Flips the direction (backwards if it was going forward or viceversa) of all tweens that have this target as a ... " />
+            <marker date="1573990719956" expanded="true" signature="88600:88656" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="88662:88978" ph="/// Flips the direction (backwards if it was going forward or viceversa) of all tweens that have this target as a ... " />
+            <marker date="1573990719956" expanded="true" signature="89029:89085" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="89091:89634" ph="/// Sends to the given position all tweens that have this target as a reference ... " />
+            <marker date="1573990719956" expanded="true" signature="89718:89787" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="89793:90336" ph="/// Sends to the given position all tweens that have this target as a reference ... " />
+            <marker date="1573990719956" expanded="true" signature="90419:90488" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="90494:90744" ph="/// Pauses all tweens that have this target as a reference ... " />
+            <marker date="1573990719956" expanded="true" signature="90797:90854" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="90860:91110" ph="/// Pauses all tweens that have this target as a reference ... " />
+            <marker date="1573990719956" expanded="true" signature="91162:91219" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="91225:91474" ph="/// Plays all tweens that have this target as a reference ... " />
+            <marker date="1573990719956" expanded="true" signature="91526:91582" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="91588:91837" ph="/// Plays all tweens that have this target as a reference ... " />
+            <marker date="1573990719956" expanded="true" signature="91888:91944" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="91950:92209" ph="/// Plays backwards all tweens that have this target as a reference ... " />
+            <marker date="1573990719956" expanded="true" signature="92270:92335" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="92341:92600" ph="/// Plays backwards all tweens that have this target as a reference ... " />
+            <marker date="1573990719956" expanded="true" signature="92660:92725" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="92731:92988" ph="/// Plays forward all tweens that have this target as a reference ... " />
+            <marker date="1573990719956" expanded="true" signature="93047:93110" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="93116:93373" ph="/// Plays forward all tweens that have this target as a reference ... " />
+            <marker date="1573990719956" expanded="true" signature="93431:93494" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="93500:93755" ph="/// Restarts all tweens that have this target as a reference ... " />
+            <marker date="1573990719956" expanded="true" signature="93836:93914" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="93920:94175" ph="/// Restarts all tweens that have this target as a reference ... " />
+            <marker date="1573990719956" expanded="true" signature="94255:94333" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="94339:94592" ph="/// Rewinds all tweens that have this target as a reference ... " />
+            <marker date="1573990719956" expanded="true" signature="94672:94744" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="94750:95003" ph="/// Rewinds all tweens that have this target as a reference ... " />
+            <marker date="1573990719956" expanded="true" signature="95082:95154" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="95160:95422" ph="/// Smoothly rewinds all tweens that have this target as a reference ... " />
+            <marker date="1573990719956" expanded="true" signature="95482:95546" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="95552:95814" ph="/// Smoothly rewinds all tweens that have this target as a reference ... " />
+            <marker date="1573990719956" expanded="true" signature="95873:95937" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="95943:96267" ph="/// Toggles the paused state (plays if it was paused, pauses if it was playing) of all tweens that have this targ ... " />
+            <marker date="1573990719956" expanded="true" signature="96326:96389" ph="{...}" />
+            <marker date="1573990719956" expanded="true" signature="96395:96719" ph="/// Toggles the paused state (plays if it was paused, pauses if it was playing) of all tweens that have this targ ... " />
+            <marker date="1573990719956" expanded="true" signature="96777:96840" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CF7FB9A7-54E7-4776-AE71-C25165CA083C/a3/f507c2b3/Rect.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="270" column="17" selection-start-line="270" selection-start-column="17" selection-end-line="270" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/Helper/Figure.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <marker date="1573999918204" expanded="true" signature="26:328" ph="{...}" />
+            <marker date="1573999918204" expanded="true" signature="53:326" ph="{...}" />
+            <marker date="1573999918204" expanded="true" signature="224:320" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/CoroutineChain.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1238">
+          <caret line="204" column="49" selection-start-line="204" selection-start-column="40" selection-end-line="204" selection-end-column="49" />
+          <folding>
+            <marker date="1573986032800" expanded="true" signature="6:127" ph="..." />
+            <marker date="1573986032800" expanded="true" signature="143:7754" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="150:1180" ph="Accessor" />
+            <marker date="1573986032800" expanded="true" signature="192:252" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="297:448" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="371:442" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="488:1164" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="542:562" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="651:978" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="677:968" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="731:918" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="1016:1080" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="1186:2599" ph="Util" />
+            <marker date="1573986032800" expanded="true" signature="1254:1911" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="1500:1588" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="1625:1779" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="1816:1905" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="1959:2583" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="2189:2277" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="2303:2451" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="2488:2577" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="2605:7752" ph="CChainInternal" />
+            <marker date="1573986032800" expanded="true" signature="2651:4603" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="2876:3293" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="2913:3283" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="3371:3512" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="3594:3746" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="3814:3959" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="3988:4130" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="4192:4483" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="4510:4597" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="4632:4688" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="4741:7736" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="5262:5413" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="5443:5525" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="5564:5956" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="5649:5879" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="6008:6137" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="6183:6325" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="6391:6522" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="6590:6769" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="6844:7436" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="6907:7321" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="7482:7606" ph="{...}" />
+            <marker date="1573986032800" expanded="true" signature="7659:7730" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/MatchIconUi.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/862B9365-843C-4BF1-BA93-210C124BB523/c6/e19597a2/Queue`1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/DragNDrop.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="66" column="34" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+          <folding>
+            <marker date="1574003427594" expanded="false" signature="6:220" ph="..." />
+            <marker date="1574003427594" expanded="true" signature="314:1863" ph="{...}" />
+            <marker date="1574003427594" expanded="false" signature="580:927" ph="API" />
+            <marker date="1574003427594" expanded="true" signature="632:669" ph="{...}" />
+            <marker date="1574003427594" expanded="true" signature="752:790" ph="{...}" />
+            <marker date="1574003427594" expanded="true" signature="873:911" ph="{...}" />
+            <marker date="1574003427594" expanded="true" signature="980:1041" ph="{...}" />
+            <marker date="1574003427594" expanded="true" signature="1100:1208" ph="{...}" />
+            <marker date="1574003427594" expanded="true" signature="1265:1861" ph="{...}" />
+            <marker date="1574003427594" expanded="true" signature="1363:1434" ph="{...}" />
+            <marker date="1574003427594" expanded="true" signature="1624:1855" ph="{...}" />
+            <marker date="1574003427594" expanded="true" signature="1743:1845" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/MatchIcon.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding>
+            <marker date="1574003607106" expanded="true" signature="6:71" ph="..." />
+            <marker date="1574003607106" expanded="true" signature="110:411" ph="{...}" />
+            <marker date="1574003607106" expanded="true" signature="211:409" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CF7FB9A7-54E7-4776-AE71-C25165CA083C/02/19fca347/SerializeField.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EF28F193-EAB6-4E49-B44B-3FB27EAB4F75/a2/46c7dc70/Action.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2DC90B95-CAEA-499E-A2C2-0BCC347210D0/50/6fdaf76c/MinMaxSliderAttribute.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-697">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/BaseFigure.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="117">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
-            <marker date="1573941441332" expanded="true" signature="6:90" ph="..." />
-            <marker date="1573941441332" expanded="true" signature="129:615" ph="{...}" />
-            <marker date="1573941441332" expanded="true" signature="233:613" ph="{...}" />
+            <marker date="1574008646581" expanded="false" signature="6:147" ph="..." />
+            <marker date="1574008646581" expanded="true" signature="186:2238" ph="{...}" />
+            <marker date="1574008646581" expanded="true" signature="289:2236" ph="{...}" />
+            <marker date="1574008646581" expanded="true" signature="876:1999" ph="{...}" />
+            <marker date="1574008646581" expanded="true" signature="2050:2230" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/LevelSetup.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/Helper/FigureFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <marker date="1574008874166" expanded="true" signature="6:140" ph="..." />
+            <marker date="1574008874166" expanded="true" signature="168:2311" ph="{...}" />
+            <marker date="1574008874166" expanded="true" signature="208:2309" ph="{...}" />
+            <marker date="1574008874166" expanded="true" signature="424:1038" ph="{...}" />
+            <marker date="1574008874166" expanded="true" signature="450:915" ph="{...}" />
+            <marker date="1574008874166" expanded="true" signature="947:1028" ph="{...}" />
+            <marker date="1574008874166" expanded="true" signature="1114:2303" ph="{...}" />
+            <marker date="1574008874166" expanded="true" signature="1157:2293" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/Helper/FactoryProduct.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+          <folding>
+            <marker date="1574008226598" expanded="true" signature="6:67" ph="..." />
+            <marker date="1574008226598" expanded="true" signature="95:770" ph="{...}" />
+            <marker date="1574008226598" expanded="true" signature="143:768" ph="{...}" />
+            <marker date="1574008226598" expanded="true" signature="246:298" ph="{...}" />
+            <marker date="1574008226598" expanded="true" signature="353:420" ph="{...}" />
+            <marker date="1574008226598" expanded="true" signature="475:542" ph="{...}" />
+            <marker date="1574008226598" expanded="true" signature="596:673" ph="{...}" />
+            <marker date="1574008226598" expanded="true" signature="704:762" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/MatchIconUi.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
           <folding>
-            <marker date="1573941441198" expanded="true" signature="6:87" ph="..." />
-            <marker date="1573941441198" expanded="true" signature="108:498" ph="{...}" />
-            <marker date="1573941441198" expanded="true" signature="115:248" ph="/// Управляет переключением уровней на низком уровне ... " />
-            <marker date="1573941441198" expanded="true" signature="292:496" ph="{...}" />
+            <marker date="1574008648596" expanded="true" signature="6:77" ph="..." />
+            <marker date="1574008648596" expanded="true" signature="93:995" ph="{...}" />
+            <marker date="1574008648596" expanded="true" signature="140:993" ph="{...}" />
+            <marker date="1574008648596" expanded="true" signature="226:987" ph="{...}" />
+            <marker date="1574008648596" expanded="true" signature="624:694" ph="{...}" />
+            <marker date="1574008648596" expanded="true" signature="725:794" ph="{...}" />
+            <marker date="1574008648596" expanded="true" signature="827:898" ph="{...}" />
+            <marker date="1574008648596" expanded="true" signature="915:977" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/BaseState.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="172">
+          <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
           <folding>
-            <marker date="1573941441326" expanded="true" signature="6:81" ph="..." />
-            <marker date="1573941441326" expanded="true" signature="120:703" ph="{...}" />
-            <marker date="1573941441326" expanded="true" signature="221:701" ph="{...}" />
+            <marker date="1574009625248" expanded="true" signature="6:214" ph="..." />
+            <marker date="1574009625248" expanded="true" signature="253:2325" ph="{...}" />
+            <marker date="1574009625248" expanded="true" signature="354:2323" ph="{...}" />
+            <marker date="1574009625248" expanded="true" signature="1181:1413" ph="{...}" />
+            <marker date="1574009625248" expanded="true" signature="1452:1977" ph="{...}" />
+            <marker date="1574009625248" expanded="true" signature="1498:1589" ph="{...}" />
+            <marker date="1574009625248" expanded="true" signature="1643:1967" ph="{...}" />
+            <marker date="1574009625248" expanded="true" signature="2018:2317" ph="{...}" />
+            <marker date="1574009625248" expanded="true" signature="2081:2273" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/Helper/Extensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+          <folding>
+            <marker date="1574007505055" expanded="true" signature="6:47" ph="..." />
+            <marker date="1574007505055" expanded="true" signature="75:1179" ph="{...}" />
+            <marker date="1574007505055" expanded="true" signature="112:1177" ph="{...}" />
+            <marker date="1574007505055" expanded="true" signature="229:503" ph="{...}" />
+            <marker date="1574007505055" expanded="true" signature="297:493" ph="{...}" />
+            <marker date="1574007505055" expanded="true" signature="574:841" ph="{...}" />
+            <marker date="1574007505055" expanded="true" signature="904:1171" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/LevelSetup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+          <folding>
+            <marker date="1574009683457" expanded="true" signature="6:150" ph="..." />
+            <marker date="1574009683457" expanded="true" signature="171:1104" ph="{...}" />
+            <marker date="1574009683457" expanded="true" signature="217:1102" ph="{...}" />
+            <marker date="1574009683457" expanded="true" signature="543:632" ph="{...}" />
+            <marker date="1574009683457" expanded="true" signature="666:826" ph="{...}" />
+            <marker date="1574009683457" expanded="true" signature="860:1096" ph="{...}" />
+            <marker date="1574009683457" expanded="true" signature="911:1036" ph="{...}" />
           </folding>
         </state>
       </provider>
