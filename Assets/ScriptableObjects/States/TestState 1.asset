@@ -13,12 +13,28 @@ MonoBehaviour:
   m_Name: TestState 1
   m_EditorClassIdentifier: 
   baseFigures:
-  - {fileID: 11400000, guid: d982e8320f7294a438136fd1629861f3, type: 2}
-  - {fileID: 11400000, guid: f6cd52b417c102a44a7409452efd3605, type: 2}
-  - {fileID: 11400000, guid: 4df75be1155f91947bb69d3203d5236e, type: 2}
+  - {fileID: 11400000, guid: 916f9a593efcd8e4380e33ba72ff0194, type: 2}
+  - {fileID: 11400000, guid: 0599008fb392bec469cedb025a7df19e, type: 2}
+  - {fileID: 11400000, guid: f1a4240b372704d45a2d2686ead5e08c, type: 2}
+  - {fileID: 11400000, guid: 1636707813e9236458742d04f0c86b29, type: 2}
+  - {fileID: 11400000, guid: cb0f1ee84ed9a4a45a652592e14d599a, type: 2}
+  - {fileID: 11400000, guid: b1f114aa93b7000439d693aff519f7ad, type: 2}
+  - {fileID: 11400000, guid: c0990513bda00164bb75195f9aabbd5a, type: 2}
+  - {fileID: 11400000, guid: 91d2576abb0530e45b7615cc8c34fcee, type: 2}
+  - {fileID: 11400000, guid: 10b558bf104924847bf9a0675fa94d6d, type: 2}
+  - {fileID: 11400000, guid: 54f91226159900e4c8085ad948b44c31, type: 2}
+  - {fileID: 11400000, guid: 3d1c244fc8492094c99c3380f49f4551, type: 2}
+  - {fileID: 11400000, guid: c9306eb85a5bac841b4e5657df0eddbc, type: 2}
+  - {fileID: 11400000, guid: 273ddfc15b1a222479bb99aa8c56c5fd, type: 2}
+  - {fileID: 11400000, guid: dc4fe340c32e18e4687b5b92751c8287, type: 2}
+  - {fileID: 11400000, guid: 4f155225927fcfc409217e961c2cb9f5, type: 2}
+  - {fileID: 11400000, guid: 2c35599067d70d340b70ec0ab4ab3927, type: 2}
   matchIcons:
   - {fileID: 11400000, guid: 79f2c3f08add23142be51839917b0b12, type: 2}
-  - {fileID: 11400000, guid: eb5bbfa09a926424894c4fd8e8982ba0, type: 2}
-  - {fileID: 11400000, guid: 6cb5d9fb4a11e164182f3e08485b1427, type: 2}
+  - {fileID: 11400000, guid: fd3f711de1c027e44aa7a40328877949, type: 2}
+  - {fileID: 11400000, guid: 91171178bd88ce64ba5d52ca4c19a311, type: 2}
+  - {fileID: 11400000, guid: 948c018276123d942a0bfae1acf8b3ce, type: 2}
+  - {fileID: 11400000, guid: 02359aa7c5f69b8469d2e21c57abaca0, type: 2}
+  - {fileID: 11400000, guid: 962cd586620979f48b69a194115d63b3, type: 2}
   matchParent: {fileID: 0}
-  minMaxSpawnTime: {x: 0.5, y: 3}
+  minMaxSpawnTime: {x: 0.7, y: 2}

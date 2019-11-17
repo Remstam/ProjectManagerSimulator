@@ -6,6 +6,7 @@ using Assets.Scripts.Storage;
 using Code.Alex.Helper;
 using Code.Alex.ScriptableObjects;
 using Sirenix.Utilities;
+using UnityEngine;
 
 namespace Assets.Scripts.FigureProcessor
 {
@@ -39,6 +40,7 @@ namespace Assets.Scripts.FigureProcessor
             set
             {
                 _countMatchedFigures = value;
+                Debug.Log($"{_countMatchedFigures} {_currState.baseFigures.Count}");
                 if (_countMatchedFigures >= _currState.baseFigures.Count)
                 {
                     UnityEngine.Debug.Log("All figures matched");
@@ -59,18 +61,7 @@ namespace Assets.Scripts.FigureProcessor
 
         private void GameEnd(GameResultType gameResult)
         {
-            //            foreach (var product in FigureFactory.FigureProducts)
-            //            {
-            //                product.Dispose();
-            //            }
-
-            //            foreach (var uiProduct in FigureFactory.UiProducts)
-            //            {
-            //                uiProduct.Dispose();
-            //            }
             UnityEngine.Debug.Log($"GAME OVER {gameResult}");
-
-            //            FigureFactory.FigureProducts.Clear();
         }
 
         private void StartGame(List<BaseState> states)

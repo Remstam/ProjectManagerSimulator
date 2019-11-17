@@ -9,7 +9,6 @@ namespace Code.Alex.Helper
 {
     public static class FigureFactory
     {
-//        public static readonly List<FactoryProduct> FigureProducts = new List<FactoryProduct>();
         public static readonly List<FactoryProduct> UiProducts = new List<FactoryProduct>();
 
         public static FactoryProduct CreateFigure(FigureType type, FigureColor color, Transform parent = null)
@@ -18,7 +17,7 @@ namespace Code.Alex.Helper
             var instance = parent == null ? Object.Instantiate(figureLoad) : Object.Instantiate(figureLoad, parent);
             SetColor(instance.GetComponentInChildren<Image>(), color);
             var product = new FactoryProduct(instance);
-//            FigureProducts.Add(product);
+
             return product;
         }
 

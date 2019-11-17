@@ -5,8 +5,7 @@ namespace Code.Alex.Helper
         Circle = 0,
         Square,
         Quadrangle,
-        Pentagon,
-        Hexagon,
-        Octagon
+        Pentagone,
+        Triangle
     }
 }

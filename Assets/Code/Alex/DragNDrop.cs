@@ -35,8 +35,7 @@ public class DragNDrop : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoin
     }
 
     #endregion
-
-
+    
     public void OnDrag(PointerEventData eventData)
     {
         transform.position = eventData.position;

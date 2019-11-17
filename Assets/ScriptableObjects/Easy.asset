@@ -14,11 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   states:
   - {fileID: 11400000, guid: a2ab53a9b3ccfe34f825b0a3b56e59d4, type: 2}
-  - {fileID: 11400000, guid: 5d24fd8f335625d41a317bcdf9f987d8, type: 2}
   maxCoffeeValue: 100
-  deltaCoffeeIncrease: 10
+  deltaCoffeeIncrease: 7
   deltaCoffeeDecreasePerSecond: 5
-  deadlineTime: 60
+  deadlineTime: 40
   endGameDescriptions:
   - {fileID: 11400000, guid: 87c3034c8048395449a56f97d4d1f638, type: 2}
   - {fileID: 11400000, guid: 49b57978744d25545a1c8ede5ff4c90a, type: 2}

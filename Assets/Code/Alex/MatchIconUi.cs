@@ -23,24 +23,19 @@ namespace Code.Alex
             var onlyType = figure.FigureColor != matchFigure.matchColor && figure.FigureType == matchFigure.matchType;
             var colorNType = figure.FigureColor == matchFigure.matchColor && figure.FigureType == matchFigure.matchType;
 
-            // todo write change level if all figures matched
-            
             if (onlyColor)
             {
                 _levelSetup.CountMatchedFigures++;
-//                FigureFactory.FigureProducts.Remove(figure.Product);
                 print(nameof(onlyColor));
             }
             else if (onlyType)
             {
                 _levelSetup.CountMatchedFigures++;
-//                FigureFactory.FigureProducts.Remove(figure.Product);
                 print(nameof(onlyType));
             }
             else if (colorNType)
             {
-                _levelSetup.CountMatchedFigures++; 
-//                FigureFactory.FigureProducts.Remove(figure.Product);
+                _levelSetup.CountMatchedFigures++;
                 print(nameof(colorNType));
             }
             else
@@ -49,12 +44,6 @@ namespace Code.Alex
                 _levelSetup.CountMatchedFigures++;
                 _levelSetup.CountPlayerMistakes++;
             }
-//            print(FigureFactory.FigureProducts.Count);
-            
-//            if (FigureFactory.FigureProducts.Count == 0)
-//            {
-//                FindObjectOfType<LevelSetup>().CountMatchedFigures = int.MaxValue;
-//            }
         }
     }
 }

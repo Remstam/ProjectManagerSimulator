@@ -17,7 +17,7 @@ MonoBehaviour:
   figureColor: 0
   moveAnimation: 1
   startFallSize: {x: 200, y: 200}
-  endFallSize: {x: 50, y: 50}
+  endFallSize: {x: 125, y: 125}
   sizeChangeAnimation: 1
-  text: test
-  fallTime: 5
+  text: 
+  fallTime: 1

@@ -15,10 +15,11 @@ MonoBehaviour:
   states:
   - {fileID: 11400000, guid: a2ab53a9b3ccfe34f825b0a3b56e59d4, type: 2}
   - {fileID: 11400000, guid: 5d24fd8f335625d41a317bcdf9f987d8, type: 2}
+  - {fileID: 11400000, guid: e739c82b0c61af545afedfd8ce05a263, type: 2}
   maxCoffeeValue: 50
   deltaCoffeeIncrease: 5
   deltaCoffeeDecreasePerSecond: 4
-  deadlineTime: 30
+  deadlineTime: 90
   endGameDescriptions:
   - {fileID: 11400000, guid: b6348be4189394a40a0ae2925a82bbfd, type: 2}
   - {fileID: 11400000, guid: 2fc9f31937364f240a7a7eb5859cdd60, type: 2}

@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: SquareRed
   m_EditorClassIdentifier: 
   parent: {fileID: 0}
-  figureType: 2
-  figureColor: 2
+  figureType: 1
+  figureColor: 6
   moveAnimation: 1
   startFallSize: {x: 200, y: 200}
   endFallSize: {x: 50, y: 50}
   sizeChangeAnimation: 1
-  text: test
-  fallTime: 5
+  text: 
+  fallTime: 2

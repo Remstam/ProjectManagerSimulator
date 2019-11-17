@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Alex;
 using Assets.Scripts.Core.GameCycle;
+using Assets.Scripts.FigureProcessor;
 using Code.Alex.Helper;
 using Sirenix.OdinInspector;
 using UnityEngine;

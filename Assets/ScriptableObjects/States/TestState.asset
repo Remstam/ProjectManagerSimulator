@@ -13,12 +13,27 @@ MonoBehaviour:
   m_Name: TestState
   m_EditorClassIdentifier: 
   baseFigures:
+  - {fileID: 11400000, guid: 91d2576abb0530e45b7615cc8c34fcee, type: 2}
+  - {fileID: 11400000, guid: 11ace288d2f8c384a925b33d71426471, type: 2}
+  - {fileID: 11400000, guid: 528483966b471a74da6a6576141d3d7d, type: 2}
+  - {fileID: 11400000, guid: 10b558bf104924847bf9a0675fa94d6d, type: 2}
+  - {fileID: 11400000, guid: 54f91226159900e4c8085ad948b44c31, type: 2}
+  - {fileID: 11400000, guid: 3d1c244fc8492094c99c3380f49f4551, type: 2}
+  - {fileID: 11400000, guid: c9306eb85a5bac841b4e5657df0eddbc, type: 2}
+  - {fileID: 11400000, guid: 273ddfc15b1a222479bb99aa8c56c5fd, type: 2}
+  - {fileID: 11400000, guid: dc4fe340c32e18e4687b5b92751c8287, type: 2}
+  - {fileID: 11400000, guid: 4f155225927fcfc409217e961c2cb9f5, type: 2}
+  - {fileID: 11400000, guid: 2c35599067d70d340b70ec0ab4ab3927, type: 2}
+  - {fileID: 11400000, guid: 54dcf85a449354540a8516e1b46bc1fa, type: 2}
   - {fileID: 11400000, guid: f6cd52b417c102a44a7409452efd3605, type: 2}
-  - {fileID: 11400000, guid: d982e8320f7294a438136fd1629861f3, type: 2}
-  - {fileID: 11400000, guid: 4df75be1155f91947bb69d3203d5236e, type: 2}
+  - {fileID: 11400000, guid: 57daeb36e8485854797049797169a5ed, type: 2}
+  - {fileID: 11400000, guid: f134219dfa2464246833ffa634457489, type: 2}
   matchIcons:
-  - {fileID: 11400000, guid: 18eea9e6002678448a799184464fd5ac, type: 2}
-  - {fileID: 11400000, guid: 79f2c3f08add23142be51839917b0b12, type: 2}
-  - {fileID: 11400000, guid: eb5bbfa09a926424894c4fd8e8982ba0, type: 2}
+  - {fileID: 11400000, guid: bfd7cc9f37497084b927763c7b307aaf, type: 2}
+  - {fileID: 11400000, guid: 41738858f7fdd754aba651b669312e33, type: 2}
+  - {fileID: 11400000, guid: 9bf03d6f2700db442b939e1e51e44f9b, type: 2}
+  - {fileID: 11400000, guid: 962cd586620979f48b69a194115d63b3, type: 2}
+  - {fileID: 11400000, guid: 91171178bd88ce64ba5d52ca4c19a311, type: 2}
+  - {fileID: 11400000, guid: 6907073aab92307468b077ef5a65fba7, type: 2}
   matchParent: {fileID: 0}
-  minMaxSpawnTime: {x: 1, y: 5}
+  minMaxSpawnTime: {x: 1, y: 3}
