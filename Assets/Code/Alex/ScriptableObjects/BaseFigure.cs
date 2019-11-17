@@ -1,3 +1,5 @@
+using System;
+using Assets.Scripts.Core.GameCycle;
 using Code.Alex.Helper;
 using DG.Tweening;
 using Sirenix.OdinInspector;
@@ -22,14 +24,15 @@ namespace Code.Alex.ScriptableObjects
         public string text;
         public float fallTime;
 
+        public event Action<BaseFigure> OnMoveEnd = e => { };
+
         private Vector3 _startPoint;
         private Vector2 _endPoint;
 
         public void DoBehaviour()
         {
-            var parentRect = parent.rect;
             var instance = FigureFactory.CreateFigure(figureType, figureColor, parent);
-
+            var parentRect = parent.rect;
             // setup spawn point
             var fRect = instance.Get<RectTransform>();
             var rndXPose = GenerateRnd(parent.rect.size.x);
@@ -39,11 +42,18 @@ namespace Code.Alex.ScriptableObjects
 
             // setup move figure
             var sizeChange = fRect.DOSizeDelta(endFallSize, fallTime).SetEase(sizeChangeAnimation);
-            var fMove = fRect.DOLocalMove(_endPoint, fallTime).SetEase(moveAnimation);
-            
+            var fMove = fRect.DOLocalMove(_endPoint, fallTime).SetEase(moveAnimation)
+                .OnComplete(() =>
+                {
+                    OnMoveEnd?.Invoke(this);
+                    Debug.Log("destroy");
+                    GameMainCycle._figureProcessor.CountMatchedFigures++;
+                    instance.Dispose();
+                });
+
             // setup DragNDrop
             var dragNDrop = instance.Add<DragNDrop>();
-            dragNDrop.SetFigure(new Figure(figureColor, figureType));
+            dragNDrop.SetFigure(new Figure(figureColor, figureType, instance));
             dragNDrop.SetMoveTweener(fMove);
             dragNDrop.SetSizeTweener(sizeChange);
 
