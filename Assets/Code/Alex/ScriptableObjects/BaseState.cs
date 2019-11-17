@@ -16,7 +16,5 @@ namespace Code.Alex.ScriptableObjects
         [Title("TimeLine Settings")] public float duration;
         public float boostCorrectMatching;
         public float boostIncorrectMatching;
-        [Title("Coffee Setup")] public float maxValue;
-        public float deltaCoffeeIncrease;
     }
 }

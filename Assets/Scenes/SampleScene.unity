@@ -144,18 +144,62 @@ MonoBehaviour:
   HashFreezeHashKeys: []
   HashFreezeHashValues: 
   Hash1: []
-  Hash1_Fix2_0:
-  - go: {fileID: 0}
-    guid: 
-    path: 
-  Hash2:
-  - ButtonHard
+  Hash1_Fix2_0: []
+  Hash2: []
   Hash3:
   - FavParams: 0
     FavString: []
     list:
     - {fileID: 519420028}
     ActiveGameObject: {fileID: 519420028}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    PATHsList: []
+    PATHsActiveGameObject: 
+    InstanceID: 0
+    wasInit: 0
+    CashedBool: 0
+  - FavParams: 0
+    FavString: []
+    list:
+    - {fileID: 0}
+    ActiveGameObject: {fileID: 0}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    PATHsList: []
+    PATHsActiveGameObject: 
+    InstanceID: 0
+    wasInit: 0
+    CashedBool: 0
+  - FavParams: 0
+    FavString: []
+    list:
+    - {fileID: 0}
+    ActiveGameObject: {fileID: 0}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    PATHsList: []
+    PATHsActiveGameObject: 
+    InstanceID: 0
+    wasInit: 0
+    CashedBool: 0
+  - FavParams: 0
+    FavString: []
+    list:
+    - {fileID: 0}
+    ActiveGameObject: {fileID: 0}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    PATHsList: []
+    PATHsActiveGameObject: 
+    InstanceID: 0
+    wasInit: 0
+    CashedBool: 0
+  - FavParams: 0
+    FavString: []
+    list:
+    - {fileID: 2123956295}
+    ActiveGameObject: {fileID: 2123956295}
     GUIDsList: []
     GUIDsActiveGameObject: 
     PATHsList: []
@@ -264,18 +308,6 @@ MonoBehaviour:
     list:
     - {fileID: 0}
     ActiveGameObject: {fileID: 0}
-    GUIDsList: []
-    GUIDsActiveGameObject: 
-    PATHsList: []
-    PATHsActiveGameObject: 
-    InstanceID: 0
-    wasInit: 0
-    CashedBool: 0
-  - FavParams: 0
-    FavString: []
-    list:
-    - {fileID: 2123956295}
-    ActiveGameObject: {fileID: 2123956295}
     GUIDsList: []
     GUIDsActiveGameObject: 
     PATHsList: []
@@ -408,6 +440,8 @@ MonoBehaviour:
   _levelSetup: {fileID: 519420033}
   _difficultyPickerViewPrefab: {fileID: 853522712954691569, guid: 8fb24c83913fc64489623a5ca50b3601,
     type: 3}
+  _coffeeBarView: {fileID: 8453907375567844350, guid: 8db02312a1b552e41be2b7f3c9493125,
+    type: 3}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -476,12 +510,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edac96e4b8094c02999db4d1638d989a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  easyStates:
-  - {fileID: 0}
-  mediumStates:
-  - {fileID: 0}
-  hardcodeStates:
-  - {fileID: 0}
+  easyStates: {fileID: 11400000, guid: 97813fb59df81ee4588dbdcd79707711, type: 2}
+  mediumStates: {fileID: 11400000, guid: e8ad606c9b34f9c4a91f0a03b78f517a, type: 2}
+  hardcodeStates: {fileID: 11400000, guid: 11803b62b8f39154799a437e9adcc022, type: 2}
 --- !u!114 &519420034
 MonoBehaviour:
   m_ObjectHideFlags: 0

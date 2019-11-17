@@ -12,7 +12,7 @@ namespace Assets.Scripts.Core
         private readonly IDifficultyPicker _difficultyPicker;
         private readonly IGameMainCycle _mainCycle;
         private readonly IEndGamePresenter _endGamePresenter;
-
+        
         public GameLoop(IStorage storage, IPrefabStorage prefabStorage)
         {
             _storage = storage;
@@ -42,6 +42,7 @@ namespace Assets.Scripts.Core
 
         private void OnGameEnded(GameResultType resultType)
         {
+            UnityEngine.Debug.LogWarning("GameEnded with" + resultType);
             _endGamePresenter.Show(resultType);
         }
     }
