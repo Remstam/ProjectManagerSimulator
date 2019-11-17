@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7cfbb8017348ff4db9c8dd66d8eca5d, type: 3}
   m_Name: Hard
   m_EditorClassIdentifier: 
-  states: []
+  states:
+  - {fileID: 11400000, guid: a2ab53a9b3ccfe34f825b0a3b56e59d4, type: 2}
+  - {fileID: 11400000, guid: 5d24fd8f335625d41a317bcdf9f987d8, type: 2}
   maxCoffeeValue: 50
   deltaCoffeeIncrease: 5
   deltaCoffeeDecreasePerSecond: 4
