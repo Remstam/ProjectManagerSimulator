@@ -2,105 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="202c5782-c0e5-45d0-973b-cfc16c37197c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex/DragNDrop.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex/Helper/FigureType.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Alex/MatchIconUi.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Figures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Figures/Circle.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Figures/Circle.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Figures/Quadrangle.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Figures/Quadrangle.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Alex.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Alex.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Figures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Figures/CircleBlack.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Figures/CircleBlack.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Figures/QuadrengleYellow.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Figures/QuadrengleYellow.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Figures/SquareRed.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Figures/SquareRed.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Match.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Match/CircleBlack.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Match/CircleBlack.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Match/CirlceRed.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Match/CirlceRed.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Match/QuadrengleCyan.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Match/QuadrengleCyan.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Match/QuadrengleWhite.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Match/QuadrengleWhite.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/States.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/States/TestState 1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/States/TestState 1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/States/TestState.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/States/TestState.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/ability gray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/ability gray.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/ability.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/ability.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/bottom.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/case1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/case1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/case2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/case2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/case3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/case3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/case4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/case4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/case5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/case5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/coffe scale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/coffe scale.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/coffee jar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/coffee jar.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/slot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/slot.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/slot1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/slot1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/slot2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/slot2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/slot3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/slot3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/slot4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/slot4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/slot5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/slot5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/stages1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/stages1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/table.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/top scale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/top scale.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/Ui/top.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/location lose.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/location lose/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/location lose/back.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/location lose/deadline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/location lose/deadline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/location lose/lose.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/location lose/lose.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/location start.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/location start/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/location start/back.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/location start/cto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/location start/cto.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/location start/positive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/location start/positive.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/location start/tired.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/location start/tired.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/сова.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/сова.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/сова1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/сова1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/сова2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/сова2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/сова3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/сова3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/фон1.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/фон1.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/фон22.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hackathon/фон22.psd.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectManagerSimulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectManagerSimulator/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -116,19 +87,13 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/BaseState.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" selection-start-line="23" selection-end-line="23" />
+                <state relative-caret-position="360">
+                  <caret line="24" selection-start-line="24" selection-end-line="24" />
                   <folding>
-                    <marker date="1574020889258" expanded="true" signature="6:233" ph="..." />
-                    <marker date="1574020889258" expanded="true" signature="272:2516" ph="{...}" />
-                    <marker date="1574020889258" expanded="true" signature="373:2514" ph="{...}" />
-                    <marker date="1574020889258" expanded="true" signature="1239:1399" ph="{...}" />
-                    <marker date="1574020889258" expanded="true" signature="1438:1886" ph="{...}" />
-                    <marker date="1574020889258" expanded="true" signature="1502:1876" ph="{...}" />
-                    <marker date="1574020889258" expanded="true" signature="1927:2192" ph="{...}" />
-                    <marker date="1574020889258" expanded="true" signature="1990:2182" ph="{...}" />
-                    <marker date="1574020889258" expanded="true" signature="2237:2317" ph="{...}" />
-                    <marker date="1574020889258" expanded="true" signature="2367:2508" ph="{...}" />
+                    <marker date="1574022337937" expanded="true" signature="6:111" ph="..." />
+                    <marker date="1574022337937" expanded="true" signature="2499:2545" ph="{...}" />
+                    <marker date="1574022337937" expanded="true" signature="2499:2551" ph="{...}" />
+                    <marker date="1574022337937" expanded="true" signature="2499:2553" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -137,7 +102,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/Helper/FigureFactory.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="188">
+                <state relative-caret-position="285">
                   <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
                   <folding>
                     <marker date="1574020889256" expanded="true" signature="6:140" ph="..." />
@@ -182,25 +147,14 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/LevelSetup.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1110">
-                  <caret line="74" column="51" selection-start-line="74" selection-start-column="51" selection-end-line="74" selection-end-column="51" />
+                <state relative-caret-position="225">
+                  <caret line="15" selection-start-line="15" selection-end-line="15" />
                   <folding>
-                    <marker date="1574020889257" expanded="true" signature="6:150" ph="..." />
-                    <marker date="1574020889257" expanded="true" signature="171:2681" ph="{...}" />
-                    <marker date="1574020889257" expanded="true" signature="217:2679" ph="{...}" />
-                    <marker date="1574020889257" expanded="true" signature="511:817" ph="{...}" />
-                    <marker date="1574020889257" expanded="true" signature="578:807" ph="{...}" />
-                    <marker date="1574020889257" expanded="true" signature="701:793" ph="{...}" />
-                    <marker date="1574020889257" expanded="true" signature="857:1303" ph="{...}" />
-                    <marker date="1574020889257" expanded="true" signature="924:1293" ph="{...}" />
-                    <marker date="1574020889257" expanded="true" signature="1058:1279" ph="{...}" />
-                    <marker date="1574020889257" expanded="true" signature="1565:1719" ph="{...}" />
-                    <marker date="1574020889257" expanded="true" signature="1772:2166" ph="{...}" />
-                    <marker date="1574020889257" expanded="true" signature="1783:2057" ph="/* foreach (var product in FigureFactory.FigureProducts) ... */" />
-                    <marker date="1574020889257" expanded="true" signature="2200:2360" ph="{...}" />
-                    <marker date="1574020889257" expanded="true" signature="2394:2673" ph="{...}" />
-                    <marker date="1574020889257" expanded="true" signature="2445:2524" ph="{...}" />
-                    <marker date="1574020889257" expanded="true" signature="2541:2663" ph="{...}" />
+                    <marker date="1574022337935" expanded="true" signature="6:188" ph="..." />
+                    <marker date="1574022337935" expanded="true" signature="209:873" ph="{...}" />
+                    <marker date="1574022337935" expanded="true" signature="255:871" ph="{...}" />
+                    <marker date="1574022337935" expanded="true" signature="503:860" ph="{...}" />
+                    <marker date="1574022337935" expanded="true" signature="539:818" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -210,14 +164,14 @@
             <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/BaseFigure.cs">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="735">
-                  <caret line="49" column="34" lean-forward="true" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+                  <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
                   <folding>
-                    <marker date="1574019316576" expanded="true" signature="6:161" ph="..." />
-                    <marker date="1574019316576" expanded="true" signature="200:2584" ph="{...}" />
-                    <marker date="1574019316576" expanded="true" signature="303:2582" ph="{...}" />
-                    <marker date="1574019316576" expanded="true" signature="953:2345" ph="{...}" />
-                    <marker date="1574019316576" expanded="true" signature="1740:1960" ph="{...}" />
-                    <marker date="1574019316576" expanded="true" signature="2396:2576" ph="{...}" />
+                    <marker date="1574022337936" expanded="true" signature="6:20" ph="..." />
+                    <marker date="1574022337936" expanded="true" signature="1916:1997" ph="{...}" />
+                    <marker date="1574022337936" expanded="true" signature="1916:2382" ph="{...}" />
+                    <marker date="1574022337936" expanded="true" signature="1916:2619" ph="{...}" />
+                    <marker date="1574022337936" expanded="true" signature="1916:2621" ph="{...}" />
+                    <marker date="1574022337936" expanded="true" signature="2433:2613" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -227,7 +181,7 @@
             <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/Helper/GameResult.cs">
               <provider selected="true" editor-type-id="text-editor">
                 <state>
-                  <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+                  <caret column="18" selection-start-column="18" selection-end-column="18" />
                   <folding>
                     <marker date="1574014053419" expanded="true" signature="26:99" ph="{...}" />
                     <marker date="1574014053419" expanded="true" signature="55:97" ph="{...}" />
@@ -240,14 +194,14 @@
             <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/MatchIconUi.cs">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="315">
-                  <caret line="21" column="120" selection-start-line="21" selection-start-column="120" selection-end-line="21" selection-end-column="120" />
+                  <caret line="23" column="120" selection-start-line="23" selection-start-column="120" selection-end-line="23" selection-end-column="120" />
                   <folding>
-                    <marker date="1574020889258" expanded="true" signature="6:91" ph="..." />
-                    <marker date="1574020889258" expanded="true" signature="112:1952" ph="{...}" />
-                    <marker date="1574020889258" expanded="true" signature="159:1950" ph="{...}" />
-                    <marker date="1574020889258" expanded="true" signature="273:351" ph="{...}" />
-                    <marker date="1574020889258" expanded="true" signature="393:1944" ph="{...}" />
-                    <marker date="1574020889258" expanded="true" signature="1921:1934" ph="{...}" />
+                    <marker date="1574022337936" expanded="true" signature="6:20" ph="..." />
+                    <marker date="1574022337936" expanded="true" signature="420:431" ph="{...}" />
+                    <marker date="1574022337936" expanded="true" signature="420:2030" ph="{...}" />
+                    <marker date="1574022337936" expanded="true" signature="420:2032" ph="{...}" />
+                    <marker date="1574022337936" expanded="true" signature="473:2024" ph="{...}" />
+                    <marker date="1574022337936" expanded="true" signature="2001:2014" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -477,10 +431,10 @@
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="11256">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="11256" />
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
@@ -496,7 +450,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573929876704</updated>
       <workItem from="1573929880278" duration="10329000" />
-      <workItem from="1573984782528" duration="36017000" />
+      <workItem from="1573984782528" duration="37382000" />
     </task>
     <task id="LOCAL-00001" summary="Check push availability&#10;Adding test.cs script">
       <created>1573929963166</created>
@@ -582,11 +536,32 @@
       <option name="project" value="LOCAL" />
       <updated>1574019885887</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ааааааа бля!">
+      <created>1574021248840</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1574021248840</updated>
+    </task>
+    <task id="LOCAL-00014" summary=" x2 ааааааа бля!">
+      <created>1574021672411</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1574021672411</updated>
+    </task>
+    <task id="LOCAL-00015" summary=" x3 ааааааа бля!">
+      <created>1574022472198</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1574022472198</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46346000" />
+    <option name="totallyTimeSpent" value="47711000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -599,6 +574,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18108653" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -651,7 +627,10 @@
     <MESSAGE value="Create base ScriptableObjects:&#10;- BaseFigure&#10;- BaseState&#10;Create LevelSetup&#10;Edit README.md&#10;- Actualize" />
     <MESSAGE value="Game ready" />
     <MESSAGE value="Game Ready.&#10;Add all game end triggers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Game Ready.&#10;Add all game end triggers" />
+    <MESSAGE value="ааааааа бля!" />
+    <MESSAGE value=" x2 ааааааа бля!" />
+    <MESSAGE value=" x3 ааааааа бля!" />
+    <option name="LAST_COMMIT_MESSAGE" value=" x3 ааааааа бля!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1210,14 +1189,14 @@
     <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/MatchIconUi.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="120" selection-start-line="21" selection-start-column="120" selection-end-line="21" selection-end-column="120" />
+          <caret line="23" column="120" selection-start-line="23" selection-start-column="120" selection-end-line="23" selection-end-column="120" />
           <folding>
-            <marker date="1574020889258" expanded="true" signature="6:91" ph="..." />
-            <marker date="1574020889258" expanded="true" signature="112:1952" ph="{...}" />
-            <marker date="1574020889258" expanded="true" signature="159:1950" ph="{...}" />
-            <marker date="1574020889258" expanded="true" signature="273:351" ph="{...}" />
-            <marker date="1574020889258" expanded="true" signature="393:1944" ph="{...}" />
-            <marker date="1574020889258" expanded="true" signature="1921:1934" ph="{...}" />
+            <marker date="1574022337936" expanded="true" signature="6:20" ph="..." />
+            <marker date="1574022337936" expanded="true" signature="420:431" ph="{...}" />
+            <marker date="1574022337936" expanded="true" signature="420:2030" ph="{...}" />
+            <marker date="1574022337936" expanded="true" signature="420:2032" ph="{...}" />
+            <marker date="1574022337936" expanded="true" signature="473:2024" ph="{...}" />
+            <marker date="1574022337936" expanded="true" signature="2001:2014" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1225,7 +1204,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/Helper/GameResult.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
           <folding>
             <marker date="1574014053419" expanded="true" signature="26:99" ph="{...}" />
             <marker date="1574014053419" expanded="true" signature="55:97" ph="{...}" />
@@ -1236,65 +1215,34 @@
     <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/BaseFigure.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
-          <caret line="49" column="34" lean-forward="true" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+          <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
           <folding>
-            <marker date="1574019316576" expanded="true" signature="6:161" ph="..." />
-            <marker date="1574019316576" expanded="true" signature="200:2584" ph="{...}" />
-            <marker date="1574019316576" expanded="true" signature="303:2582" ph="{...}" />
-            <marker date="1574019316576" expanded="true" signature="953:2345" ph="{...}" />
-            <marker date="1574019316576" expanded="true" signature="1740:1960" ph="{...}" />
-            <marker date="1574019316576" expanded="true" signature="2396:2576" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/LevelSetup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="74" column="51" selection-start-line="74" selection-start-column="51" selection-end-line="74" selection-end-column="51" />
-          <folding>
-            <marker date="1574020889257" expanded="true" signature="6:150" ph="..." />
-            <marker date="1574020889257" expanded="true" signature="171:2681" ph="{...}" />
-            <marker date="1574020889257" expanded="true" signature="217:2679" ph="{...}" />
-            <marker date="1574020889257" expanded="true" signature="511:817" ph="{...}" />
-            <marker date="1574020889257" expanded="true" signature="578:807" ph="{...}" />
-            <marker date="1574020889257" expanded="true" signature="701:793" ph="{...}" />
-            <marker date="1574020889257" expanded="true" signature="857:1303" ph="{...}" />
-            <marker date="1574020889257" expanded="true" signature="924:1293" ph="{...}" />
-            <marker date="1574020889257" expanded="true" signature="1058:1279" ph="{...}" />
-            <marker date="1574020889257" expanded="true" signature="1565:1719" ph="{...}" />
-            <marker date="1574020889257" expanded="true" signature="1772:2166" ph="{...}" />
-            <marker date="1574020889257" expanded="true" signature="1783:2057" ph="/* foreach (var product in FigureFactory.FigureProducts) ... */" />
-            <marker date="1574020889257" expanded="true" signature="2200:2360" ph="{...}" />
-            <marker date="1574020889257" expanded="true" signature="2394:2673" ph="{...}" />
-            <marker date="1574020889257" expanded="true" signature="2445:2524" ph="{...}" />
-            <marker date="1574020889257" expanded="true" signature="2541:2663" ph="{...}" />
+            <marker date="1574022337936" expanded="true" signature="6:20" ph="..." />
+            <marker date="1574022337936" expanded="true" signature="1916:1997" ph="{...}" />
+            <marker date="1574022337936" expanded="true" signature="1916:2382" ph="{...}" />
+            <marker date="1574022337936" expanded="true" signature="1916:2619" ph="{...}" />
+            <marker date="1574022337936" expanded="true" signature="1916:2621" ph="{...}" />
+            <marker date="1574022337936" expanded="true" signature="2433:2613" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/ScriptableObjects/BaseState.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
-            <marker date="1574020889258" expanded="true" signature="6:233" ph="..." />
-            <marker date="1574020889258" expanded="true" signature="272:2516" ph="{...}" />
-            <marker date="1574020889258" expanded="true" signature="373:2514" ph="{...}" />
-            <marker date="1574020889258" expanded="true" signature="1239:1399" ph="{...}" />
-            <marker date="1574020889258" expanded="true" signature="1438:1886" ph="{...}" />
-            <marker date="1574020889258" expanded="true" signature="1502:1876" ph="{...}" />
-            <marker date="1574020889258" expanded="true" signature="1927:2192" ph="{...}" />
-            <marker date="1574020889258" expanded="true" signature="1990:2182" ph="{...}" />
-            <marker date="1574020889258" expanded="true" signature="2237:2317" ph="{...}" />
-            <marker date="1574020889258" expanded="true" signature="2367:2508" ph="{...}" />
+            <marker date="1574022337937" expanded="true" signature="6:111" ph="..." />
+            <marker date="1574022337937" expanded="true" signature="2499:2545" ph="{...}" />
+            <marker date="1574022337937" expanded="true" signature="2499:2551" ph="{...}" />
+            <marker date="1574022337937" expanded="true" signature="2499:2553" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/Helper/FigureFactory.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
+        <state relative-caret-position="285">
           <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding>
             <marker date="1574020889256" expanded="true" signature="6:140" ph="..." />
@@ -1304,6 +1252,20 @@
             <marker date="1574020889256" expanded="true" signature="1066:1494" ph="{...}" />
             <marker date="1574020889256" expanded="true" signature="1570:2759" ph="{...}" />
             <marker date="1574020889256" expanded="true" signature="1613:2749" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/Alex/LevelSetup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <marker date="1574022337935" expanded="true" signature="6:188" ph="..." />
+            <marker date="1574022337935" expanded="true" signature="209:873" ph="{...}" />
+            <marker date="1574022337935" expanded="true" signature="255:871" ph="{...}" />
+            <marker date="1574022337935" expanded="true" signature="503:860" ph="{...}" />
+            <marker date="1574022337935" expanded="true" signature="539:818" ph="{...}" />
           </folding>
         </state>
       </provider>

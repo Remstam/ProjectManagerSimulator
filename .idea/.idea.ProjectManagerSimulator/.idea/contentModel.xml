@@ -19,12 +19,14 @@
               <e p="FigureColor.cs" t="Include" />
               <e p="FigureFactory.cs" t="Include" />
               <e p="FigureType.cs" t="Include" />
+              <e p="GameResult.cs" t="Include" />
             </e>
             <e p="LevelSetup.cs" t="Include" />
             <e p="MatchIconUI.cs" t="Include" />
             <e p="ScriptableObjects" t="Include">
               <e p="BaseFigure.cs" t="Include" />
               <e p="BaseState.cs" t="Include" />
+              <e p="LevelInfo.cs" t="Include" />
               <e p="MatchIcon.cs" t="Include" />
             </e>
           </e>
@@ -98,6 +100,61 @@
               </e>
             </e>
             <e p="readme.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="CoffeeBar" t="Include">
+            <e p="CoffeeBarModel.cs" t="Include" />
+            <e p="CoffeeBarView.cs" t="Include" />
+            <e p="ICoffeeBar.cs" t="Include" />
+            <e p="ICoffeeBarView.cs" t="Include" />
+          </e>
+          <e p="Core" t="Include">
+            <e p="Difficulty" t="Include">
+              <e p="DifficultyPicker.cs" t="Include" />
+              <e p="DifficultyType.cs" t="Include" />
+              <e p="IDifficultyPicker.cs" t="Include" />
+            </e>
+            <e p="EndGame" t="Include">
+              <e p="EndGameDescription.cs" t="Include" />
+              <e p="EndGamePresenter.cs" t="Include" />
+              <e p="IEndGameDescription.cs" t="Include" />
+              <e p="IEndGamePresenter.cs" t="Include" />
+            </e>
+            <e p="Game.cs" t="Include" />
+            <e p="GameCycle" t="Include">
+              <e p="GameMainCycle.cs" t="Include" />
+              <e p="IGameMainCycle.cs" t="Include" />
+            </e>
+            <e p="GameLoop" t="Include">
+              <e p="GameLoop.cs" t="Include" />
+              <e p="IGameLoop.cs" t="Include" />
+            </e>
+            <e p="GameResultType.cs" t="Include" />
+          </e>
+          <e p="DeadlineBar" t="Include">
+            <e p="DeadlineBarModel.cs" t="Include" />
+            <e p="DeadlineBarView.cs" t="Include" />
+            <e p="IDeadlineBarModel.cs" t="Include" />
+            <e p="IDeadlineBarView.cs" t="Include" />
+          </e>
+          <e p="DifficultyPickerView" t="Include">
+            <e p="DifficultyButton.cs" t="Include" />
+            <e p="DifficultyPickerView.cs" t="Include" />
+            <e p="IDifficultyButton.cs" t="Include" />
+            <e p="IDifficultyPickerView.cs" t="Include" />
+          </e>
+          <e p="EndGameView" t="Include">
+            <e p="EndGameView.cs" t="Include" />
+            <e p="IEndGameView.cs" t="Include" />
+          </e>
+          <e p="FigureProcessor" t="Include">
+            <e p="FigureProcessor.cs" t="Include" />
+          </e>
+          <e p="Storage" t="Include">
+            <e p="IPrefabStorage.cs" t="Include" />
+            <e p="IStorage.cs" t="Include" />
+            <e p="StorageObj.cs" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">
