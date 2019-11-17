@@ -1,4 +1,5 @@
-﻿using Assets.Scripts.CoffeeBar;
+﻿using System.Collections.Generic;
+using Assets.Scripts.CoffeeBar;
 using Assets.Scripts.Core;
 using Assets.Scripts.Core.Difficulty;
 using Assets.Scripts.Core.EndGame;
@@ -6,6 +7,7 @@ using Assets.Scripts.DeadlineView;
 using Assets.Scripts.EndGameView;
 using Assets.Scripts.View;
 using Code.Alex;
+using Code.Alex.ScriptableObjects;
 using UnityEngine;
 
 namespace Assets.Scripts.Storage
@@ -41,6 +43,11 @@ namespace Assets.Scripts.Storage
         {
             var obj = Instantiate(_deadlineBarView, _canvasTransform, false);
             return obj;
+        }
+
+        public List<BaseState> GetBaseStates(DifficultyType type)
+        {
+            return _levelSetup.GetSetupByDifficulty(type).states;
         }
 
         public int[] GetCoffeeBarParams(DifficultyType type)

@@ -12,11 +12,13 @@ namespace Assets.Scripts.Core.GameCycle
 
         private ICoffeeBar _coffeeBar;
         private IDeadlineBarModel _deadlineBar;
+        private FigureProcessor.FigureProcessor _figureProcessor;
 
         public void Init(DifficultyType type, IStorage storage, IPrefabStorage prefabStorage)
         {
             InitDeadlineBar(type, storage, prefabStorage);
             InitCoffeeBar(type, storage, prefabStorage);
+            InitFigureProcessor(type, storage);
         }
 
         public void Reset()
@@ -48,6 +50,17 @@ namespace Assets.Scripts.Core.GameCycle
             _deadlineBar.Show();
         }
 
+        private void InitFigureProcessor(DifficultyType type, IStorage storage)
+        {
+            if (_figureProcessor == null)
+            {
+                _figureProcessor = new FigureProcessor.FigureProcessor();
+                _figureProcessor.OnGameEnd += OnFigureProcessorWin;
+            }
+
+            _figureProcessor.Init(type, storage);
+        }
+
         private void OnBarFault()
         {
             OnGameEnded(GameResultType.OutOfCoffee);
@@ -56,6 +69,11 @@ namespace Assets.Scripts.Core.GameCycle
         private void OnDeadlineHappened()
         {
             OnGameEnded(GameResultType.DeadlineApproached);
+        }
+
+        private void OnFigureProcessorWin()
+        {
+            OnGameEnded(GameResultType.Won);
         }
 
         private void OnGameEnded(GameResultType resultType)
