@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Alex;
+using Assets.Scripts.Core.GameCycle;
 using Code.Alex.Helper;
 using Sirenix.OdinInspector;
 using UnityEngine;
@@ -72,7 +73,7 @@ namespace Code.Alex.ScriptableObjects
         private void StageEnd(BaseFigure figure)
         {
             figure.OnMoveEnd -= StageEnd;
-            FindObjectOfType<LevelSetup>().CountMatchedFigures = int.MaxValue;
+            GameMainCycle._figureProcessor.CountMatchedFigures = int.MaxValue;
         }
     }
 }

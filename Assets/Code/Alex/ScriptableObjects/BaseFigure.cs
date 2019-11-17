@@ -1,4 +1,5 @@
 using System;
+using Assets.Scripts.Core.GameCycle;
 using Code.Alex.Helper;
 using DG.Tweening;
 using Sirenix.OdinInspector;
@@ -46,7 +47,7 @@ namespace Code.Alex.ScriptableObjects
                 {
                     OnMoveEnd?.Invoke(this);
                     Debug.Log("destroy");
-                    FindObjectOfType<LevelSetup>().CountMatchedFigures++;
+                    GameMainCycle._figureProcessor.CountMatchedFigures++;
                     instance.Dispose();
                 });
 

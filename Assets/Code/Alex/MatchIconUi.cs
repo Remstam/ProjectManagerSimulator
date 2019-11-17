@@ -1,4 +1,6 @@
 ﻿using System;
+using Assets.Scripts.Core.GameCycle;
+using Assets.Scripts.FigureProcessor;
 using Code.Alex.Helper;
 using Code.Alex.ScriptableObjects;
 using UnityEngine;
@@ -9,10 +11,10 @@ namespace Code.Alex
     {
         public MatchIcon matchFigure;
 
-        private LevelSetup _levelSetup;
+        private FigureProcessor _levelSetup;
         private void Start()
         {
-            _levelSetup = FindObjectOfType<LevelSetup>();
+            _levelSetup = GameMainCycle._figureProcessor;
         }
 
         public void Match(Figure figure)
