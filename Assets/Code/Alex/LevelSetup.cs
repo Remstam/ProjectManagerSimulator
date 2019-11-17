@@ -22,33 +22,57 @@ namespace Code.Alex
                 _countPlayerMistakes = value;
                 if (_countPlayerMistakes == MaxPlayerMistakes)
                 {
-                    OnGameEnd?.Invoke();
+                    OnGameEnd?.Invoke(GameResult.Lose);
                 }
             }
         }
 
-        public event Action OnGameEnd = () => { };
-        
+        public int CountMatchedFigures
+        {
+            get => _countMatchedFigures;
+            set
+            {
+                _countMatchedFigures = value;
+                if (_countMatchedFigures >= _currState.baseFigures.Count)
+                {
+                    print("All figures matched");
+                    _countMatchedFigures = 0;
+                    _currState.DisposeMatchedObjects();
+                    NextStage();
+                }
+            }
+        }
+
+        public event Action<GameResult> OnGameEnd = e => { };
+
         private Queue<BaseState> _queueStages;
         private int _countPlayerMistakes;
+        private BaseState _currState;
+        private int _countMatchedFigures;
 
         public void Awake()
         {
             // todo add difficulty selector
             StartGame();
-            
+
             // test subscribe
             OnGameEnd += GameEnd;
         }
 
-        private void GameEnd()
+        private void GameEnd(GameResult gameResult)
         {
-            foreach (var product in FigureFactory.ListProducts)
-            {
-                product.Dispose();
-            }
-            FigureFactory.ListProducts.Clear();
-            print("GameEnd");
+//            foreach (var product in FigureFactory.FigureProducts)
+//            {
+//                product.Dispose();
+//            }
+
+//            foreach (var uiProduct in FigureFactory.UiProducts)
+//            {
+//                uiProduct.Dispose();
+//            }
+            print($"GAME OVER {gameResult}");
+
+//            FigureFactory.FigureProducts.Clear();
         }
 
         private void StartGame()
@@ -62,11 +86,12 @@ namespace Code.Alex
         {
             if (_queueStages.Count == 0)
             {
-                OnGameEnd?.Invoke();
+                OnGameEnd?.Invoke(GameResult.Win);
             }
             else
             {
-                _queueStages.Dequeue().StartState();
+                _currState = _queueStages.Dequeue();
+                _currState.StartState();
             }
         }
     }

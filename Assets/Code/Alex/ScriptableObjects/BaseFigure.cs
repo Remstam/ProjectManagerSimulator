@@ -30,9 +30,8 @@ namespace Code.Alex.ScriptableObjects
 
         public void DoBehaviour()
         {
-            var parentRect = parent.rect;
             var instance = FigureFactory.CreateFigure(figureType, figureColor, parent);
-
+            var parentRect = parent.rect;
             // setup spawn point
             var fRect = instance.Get<RectTransform>();
             var rndXPose = GenerateRnd(parent.rect.size.x);
@@ -46,12 +45,14 @@ namespace Code.Alex.ScriptableObjects
                 .OnComplete(() =>
                 {
                     OnMoveEnd?.Invoke(this);
+                    Debug.Log("destroy");
+                    FindObjectOfType<LevelSetup>().CountMatchedFigures++;
                     instance.Dispose();
                 });
 
             // setup DragNDrop
             var dragNDrop = instance.Add<DragNDrop>();
-            dragNDrop.SetFigure(new Figure(figureColor, figureType));
+            dragNDrop.SetFigure(new Figure(figureColor, figureType, instance));
             dragNDrop.SetMoveTweener(fMove);
             dragNDrop.SetSizeTweener(sizeChange);
 

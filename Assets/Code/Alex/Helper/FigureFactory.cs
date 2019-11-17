@@ -9,14 +9,26 @@ namespace Code.Alex.Helper
 {
     public static class FigureFactory
     {
-        public static readonly List<FactoryProduct> ListProducts = new List<FactoryProduct>();
+//        public static readonly List<FactoryProduct> FigureProducts = new List<FactoryProduct>();
+        public static readonly List<FactoryProduct> UiProducts = new List<FactoryProduct>();
+
         public static FactoryProduct CreateFigure(FigureType type, FigureColor color, Transform parent = null)
         {
             var figureLoad = Resources.Load<GameObject>(Path.Combine("Figures", type.ToString()));
             var instance = parent == null ? Object.Instantiate(figureLoad) : Object.Instantiate(figureLoad, parent);
             SetColor(instance.GetComponentInChildren<Image>(), color);
             var product = new FactoryProduct(instance);
-            ListProducts.Add(product);
+//            FigureProducts.Add(product);
+            return product;
+        }
+
+        public static FactoryProduct CreateUiFigure(FigureType type, FigureColor color, Transform parent = null)
+        {
+            var figureLoad = Resources.Load<GameObject>(Path.Combine("Figures", type.ToString()));
+            var instance = parent == null ? Object.Instantiate(figureLoad) : Object.Instantiate(figureLoad, parent);
+            SetColor(instance.GetComponentInChildren<Image>(), color);
+            var product = new FactoryProduct(instance);
+            UiProducts.Add(product);
             return product;
         }
 

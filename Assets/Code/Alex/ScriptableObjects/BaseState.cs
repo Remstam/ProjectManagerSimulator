@@ -37,16 +37,17 @@ namespace Code.Alex.ScriptableObjects
 
             OnStateStart?.Invoke();
 
+            CoroutineChain.Start.Play(PlayStage());
+
             var last = _queueShuffledFigures.Last();
             last.OnMoveEnd += StageEnd;
-            CoroutineChain.Start.Play(PlayStage());
         }
 
         private void LoadMatchIcons()
         {
             foreach (var easyMatchIcon in matchIcons)
             {
-                var icon = FigureFactory.CreateFigure(easyMatchIcon.matchType, easyMatchIcon.matchColor, matchParent);
+                var icon = FigureFactory.CreateUiFigure(easyMatchIcon.matchType, easyMatchIcon.matchColor, matchParent);
                 _createdMatchObjects.Add(icon);
                 var matchIconUi = icon.Add<MatchIconUi>();
                 matchIconUi.matchFigure = easyMatchIcon;
@@ -63,11 +64,15 @@ namespace Code.Alex.ScriptableObjects
             }
         }
 
-        private void StageEnd(BaseFigure figure)
+        public void DisposeMatchedObjects()
         {
             _createdMatchObjects.ForEach(e => e.Dispose());
+        }
+
+        private void StageEnd(BaseFigure figure)
+        {
             figure.OnMoveEnd -= StageEnd;
-            OnStateEnd?.Invoke();
+            FindObjectOfType<LevelSetup>().CountMatchedFigures = int.MaxValue;
         }
     }
 }
