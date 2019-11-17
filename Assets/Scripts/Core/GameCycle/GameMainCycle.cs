@@ -39,8 +39,9 @@ namespace Assets.Scripts.Core.GameCycle
 
         private void OnGameEnded(GameResultType resultType)
         {
-            UnityEngine.Debug.LogWarning("Game ended with " + resultType);
             _coffeeBar.Halt();
+
+            GameEnded(resultType);
         }
     }
 }

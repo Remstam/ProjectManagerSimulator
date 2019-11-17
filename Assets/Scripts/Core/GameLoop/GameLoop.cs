@@ -19,7 +19,7 @@ namespace Assets.Scripts.Core
             _prefabStorage = prefabStorage;
             _difficultyPicker = new DifficultyPicker(prefabStorage);
             _mainCycle = new GameMainCycle();
-            _endGamePresenter = new EndGamePresenter();
+            _endGamePresenter = new EndGamePresenter(prefabStorage);
 
             _difficultyPicker.DifficultyPicked += OnDifficultyPicked;
             _mainCycle.GameEnded += OnGameEnded;

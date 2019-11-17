@@ -1,5 +1,6 @@
 ﻿using Assets.Scripts.CoffeeBar;
 using Assets.Scripts.Core.Difficulty;
+using Assets.Scripts.EndGameView;
 using Assets.Scripts.View;
 using Code.Alex;
 using UnityEngine;
@@ -12,6 +13,7 @@ namespace Assets.Scripts.Storage
         [SerializeField] private LevelSetup _levelSetup;
         [SerializeField] private DifficultyPickerView _difficultyPickerViewPrefab;
         [SerializeField] private CoffeeBarView _coffeeBarView;
+        [SerializeField] private EndGameView.EndGameView _endGameView;
 
         public IDifficultyPickerView GetDifficultyPickerView()
         {
@@ -22,6 +24,12 @@ namespace Assets.Scripts.Storage
         public ICoffeeBarView GetCoffeeBarView()
         {
             var obj = Instantiate(_coffeeBarView, _canvasTransform, false);
+            return obj;
+        }
+
+        public IEndGameView GetEndGameView()
+        {
+            var obj = Instantiate(_endGameView, _canvasTransform, false);
             return obj;
         }
 
