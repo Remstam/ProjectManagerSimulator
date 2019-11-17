@@ -17,8 +17,9 @@ namespace Assets.Scripts.Core.EndGame
             _endGameView.Hide();
         }
 
-        public void Show(GameResultType gameResultType)
+        public void Show(IEndGameDescription endGameDescription)
         {
+            _endGameView.Init(endGameDescription.Title, endGameDescription.Description);
             _endGameView.Show();
         }
 

@@ -1,12 +1,11 @@
-﻿using Assets.Scripts.Core.Difficulty;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Assets.Scripts.Core.EndGame
 {
-    public class EndGameDescription : IEndGameDescription
+    [CreateAssetMenu(fileName = "EndGameDesc", menuName = "Scriptable/EndGame desc")]
+    public class EndGameDescription : ScriptableObject, IEndGameDescription
     {
         [SerializeField] private GameResultType _gameResultType;
-        [SerializeField] private DifficultyType _difficultyType;
         [SerializeField] private string _title;
         [SerializeField] private string _description;
 
@@ -14,12 +13,6 @@ namespace Assets.Scripts.Core.EndGame
         {
             get { return _gameResultType; }
             set { _gameResultType = value; }
-        }
-
-        public DifficultyType DifficultyType
-        {
-            get { return _difficultyType; }
-            set { _difficultyType = value; }
         }
 
         public string Title

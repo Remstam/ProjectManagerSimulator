@@ -1,5 +1,7 @@
 ﻿using Assets.Scripts.CoffeeBar;
+using Assets.Scripts.Core;
 using Assets.Scripts.Core.Difficulty;
+using Assets.Scripts.Core.EndGame;
 using Assets.Scripts.EndGameView;
 using Assets.Scripts.View;
 using Code.Alex;
@@ -41,6 +43,12 @@ namespace Assets.Scripts.Storage
             result[1] = setup.deltaCoffeeIncrease;
             result[2] = setup.deltaCoffeeDecreasePerSecond;
             return result;
+        }
+
+        public IEndGameDescription GetEndGameDescription(DifficultyType type, GameResultType result)
+        {
+            var setup = _levelSetup.GetSetupByDifficulty(type);
+            return setup.GetEndGameDescription(result);
         }
     }
 }

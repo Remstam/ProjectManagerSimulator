@@ -6,7 +6,7 @@ namespace Assets.Scripts.Core.EndGame
     {
         event Action Restart;
 
-        void Show(GameResultType gameResultType);
+        void Show(IEndGameDescription desc);
         void Hide();
     }
 }

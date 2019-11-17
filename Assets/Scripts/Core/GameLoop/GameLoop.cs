@@ -12,6 +12,7 @@ namespace Assets.Scripts.Core
         private readonly IDifficultyPicker _difficultyPicker;
         private readonly IGameMainCycle _mainCycle;
         private readonly IEndGamePresenter _endGamePresenter;
+        private DifficultyType _difficultyType;
         
         public GameLoop(IStorage storage, IPrefabStorage prefabStorage)
         {
@@ -36,6 +37,8 @@ namespace Assets.Scripts.Core
 
         private void OnDifficultyPicked(DifficultyType type)
         {
+            _difficultyType = type;
+
             _difficultyPicker.Hide();
             _mainCycle.Init(type, _storage, _prefabStorage);
         }
@@ -43,7 +46,9 @@ namespace Assets.Scripts.Core
         private void OnGameEnded(GameResultType resultType)
         {
             UnityEngine.Debug.LogWarning("GameEnded with" + resultType);
-            _endGamePresenter.Show(resultType);
+
+            var endGameDesc = _storage.GetEndGameDescription(_difficultyType, resultType);
+            _endGamePresenter.Show(endGameDesc);
         }
     }
 }
